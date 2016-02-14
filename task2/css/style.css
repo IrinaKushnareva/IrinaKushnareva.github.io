@@ -1,0 +1,123 @@
+body{
+    background: #f9f9f9 url('../img/bg.png') repeat-y center;
+}
+/* HEADER */
+.canvas {
+    margin: 0 auto;
+    height: 950px;
+    width: 966px;
+    padding: 0 48px 0 46px;
+    background-color: white;
+}
+.logo {
+    margin-top: 51px;
+}
+ul.topmenu {
+    height: 39px;
+    margin:40px 0 40px;
+    background-color: #5e5e5e;
+    background: linear-gradient(to top, #444343, #5e5e5e);
+}
+ul.topmenu li {
+    float: left;
+}
+ul.topmenu li a {
+    padding: 12px 25px;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Open Sans';
+    text-shadow: 3px 1px 1px rgba(0,0,0,0.62);
+    font-size: 14px;
+    text-decoration: none;
+}
+ul.topmenu li a:hover{
+    border-left: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    background-color: #353535;
+    padding: 12px 24px;
+}
+/* SIDEBAR */
+.sidebar {
+    width: 240px;
+    float: left;
+}
+ul.leftmenu {
+    height: 240px;
+    width: 240px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.leftmenu a{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    text-align: center;
+    color: #656363;
+    width: 215px;
+    height: 13px;
+    display: inline-block;
+    text-align: left;
+    border-left: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 13px 0 13px 23px;
+    text-decoration: none;
+}
+ul.leftmenu li:first-child{
+    border-top: 1px solid #c8c8c8;
+}
+ul.leftmenu li a:hover{
+    padding: 13px 0 13px 35px;
+    width: 203px;
+    color: #2c2c2c;
+    background-color: #f9f9f9;
+}
+/* CONTENT */
+.content {
+    margin-left: 288px;
+}
+.text {
+    padding: 39px 29px 63px 24px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    line-height: normal;
+}
+/* FOOTER */
+ul.bottom-menu {
+    height: 40px;
+}
+ul.bottom-menu li {
+    float: left;
+}
+ul.bottom-menu li a {
+    padding: 12px 25px;
+    display: inline-block;
+    color: #2c2c2c;
+    font-family: 'Open Sans';
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    font-size: 14px;
+    text-decoration: none;
+}
+ul.bottom-menu a:hover{
+    text-decoration: underline;
+}
+ul.bottom-menu {
+    float: left;
+}
+.copyright {
+    height: 14px;
+    padding: 13px 26px 13px 0px;
+    color: #2c2c2c;
+    font-family: 'Open Sans';
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    font-size: 14px;
+    text-decoration: none;
+    text-align: right;
+    float: right;
+}
+.footer {
+    background-color: #e1e1e1;
+}
+.cb {
+    clear: both;
+}
