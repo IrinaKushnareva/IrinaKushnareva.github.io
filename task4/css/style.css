@@ -110,7 +110,7 @@ ul.menu li a.profile {
     color: white;
     background-color: #101010;
 }
-.content form input[type="text"]:hover,[type="email"]:hover,[type="password"]:hover {
+.content form input[type="text"]:focus,[type="email"]:focus,[type="password"]:focus {
     background-color: #1b5288;
     /*-webkit-box-shadow: 0px 0px 5px 5px rgba(77,135,177,0.7);
     -moz-box-shadow: 0px 0px 5px 5px rgba(77,135,177,0.7);*/
