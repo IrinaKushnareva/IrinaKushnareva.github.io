@@ -9,6 +9,7 @@ body {
     width: 910px;
     height: 1310px;
     padding: 0px 45px;
+    margin: auto;
 }
 .cb {
     clear: both;
