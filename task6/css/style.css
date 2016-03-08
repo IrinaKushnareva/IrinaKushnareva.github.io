@@ -535,7 +535,7 @@ footer {
 }
 .copyright{
     margin: 0 auto;
-    width: 154px;
+    width: 156px;
     margin-top: 6px;
 }
 .copyright a{
@@ -544,5 +544,5 @@ footer {
     font-family: Arial;
     text-align: center;
     text-decoration: none;
-    letter-spacing: 0.25px;
+    /*letter-spacing: 0.25px;*/
 }
