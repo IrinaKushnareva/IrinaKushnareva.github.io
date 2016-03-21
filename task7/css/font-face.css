@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../fonts/open-sans.light-webfont.eot');
+    src: url('../fonts/open-sans.light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans.light-webfont.woff2') format('woff2'),
+         url('../fonts/open-sans.light-webfont.woff') format('woff'),
+         url('../fonts/open-sans.light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/2211-webfont.eot');
+    src: url('../fonts/2211-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/2211-webfont.woff2') format('woff2'),
+         url('../fonts/2211-webfont.woff') format('woff'),
+         url('../fonts/2211-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/league-gothic.regular-webfont.eot');
+    src: url('../fonts/league-gothic.regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/league-gothic.regular-webfont.woff2') format('woff2'),
+         url('../fonts/league-gothic.regular-webfont.woff') format('woff'),
+         url('../fonts/league-gothic.regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
