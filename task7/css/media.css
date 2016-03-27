@@ -1,6 +1,87 @@
-/*media  -  480px*/
-@media screen and (max-width: 480px){
 
+
+
+/*media  -  768px*/
+@media screen and (max-width: 768px){
+.header-wraper{
+    width: 100%;
+    max-width: 768px;
+    margin: auto;
+}
+
+.content-blog_2-article-name-320px{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------media  -  480px----------*/
+
+@media screen and (max-width: 480px){
+    /*---HEADER---*/
     .header {
         width: 100%;
         height: 552px;
@@ -62,7 +143,7 @@
     margin: 1% 0 0 0;
 }
 
-/*-------------CONTENT----------------*/
+/*------------SIDEBAR----------------*/
 .content-wraper{
     width:100%;
     max-width: 480px;
@@ -109,6 +190,7 @@
       text-shadow: 0.5px 0.866px 0px rgb( 15, 21, 24 );
       float:right;
 }
+/*----------CONTENT-----------*/
 .content {
     width: 100%;
     height: 786px;
@@ -247,7 +329,7 @@ p.content-blog_2-article-time_width-480px-768px {
     float: left;
 }
 
-/*---CONTENT-NEWS---*/
+/*CONTENT-NEWS*/
 .content-news{
     clear: both;
     height: 668px;
@@ -285,12 +367,7 @@ p.content-blog_2-article-time_width-480px-768px {
 }
 
 
-
-
-
-
-
-        /*FOOTER*/
+        /*--------FOOTER----------*/
 .footer {
     width: 100%;
     background: url('../img/footer.jpg') center top no-repeat;
@@ -347,24 +424,6 @@ a.menu__link.menu {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -384,29 +443,7 @@ a.menu__link.menu {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        /*media  -  320px*/
+    /*---------media  -  320px------------*/
 
 @media screen and (max-width: 320px){
     .header {
@@ -593,7 +630,7 @@ a.menu__link.menu {
     box-shadow: 0px 0px 0px 1.5px rgba(105,98,112,0.83);
     }
 
-                        /*sidebar */
+                        /*sidebar*/
     .sidebar {
     background: #765283; /* Old browsers */
     background: -moz-linear-gradient(top,  #765283 2%, #765283 27%, #3b2c43 100%); /* FF3.6-15 */
@@ -1010,52 +1047,9 @@ a.menu__link.menu {
 
 
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
-                    /*media  -  768px*/
-@media screen and (max-width: 768px){
-    .header-wraper{
-        width: 100%;
-        max-width: 768px;
-        margin: auto;
-    }
-
-    .content-blog_2-article-name-320px{
-        display: none;
-    }
 
 
 
@@ -1087,8 +1081,6 @@ a.menu__link.menu {
 
 
 
-
-}
 
 
 
