@@ -2,6 +2,8 @@
 function pow(x, n) {
   var x = prompt("Введите пожалуйста, число!", '');
   var n = prompt("Введите пожалуйста, степень!", '');
+  var x = parseInt(x);//number;
+	var n = parseInt(n);//exponent;
 
   var result = 1;
 
@@ -20,3 +22,4 @@ return result;
 
 var exponentResult = pow ();
 console.log ('Результат = ', exponentResult);
+document.write('Результат = ', exponentResult);
