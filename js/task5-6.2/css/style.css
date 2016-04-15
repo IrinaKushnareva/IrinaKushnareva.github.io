@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  width: 100%;
+  background: url('../img/1.jpg') center top no-repeat;
+  background-size: cover;
+  font-family: Arial;
+}
+
+.title {
+  text-align: center;
+  font-size: 45px;
+  color: #000033;
+  margin-top: 70px;
+}
+
+#timer {
+  margin: auto;
+  margin-top: 90px;
+  background: rgba(102, 102, 255, 0.5);
+  display: block;
+  width: 350px;
+  /*height: 90px;*/
+  color: #000033;
+  border: 2px solid #990000;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 60px;
+}
+/*#timer span {
+  font-size: 25px;
+  float: right;
+  padding-right: 50px;
+}*/
+
+#controls {
+  margin-top: 50px;
+  text-align: center;
+  display: block;
+}
+
+/*#timer {
+  margin: auto;
+  display: block;
+  width: 650px;
+  height: 100px;
+  font-family: 'Lato';
+  font-size: 50px;
+  font-weight: 300;
+}*/
+
+button {
+  width: 100px;
+  height: 50px;
+}
+
+/*button:hover {
+  cursor: pointer;
+}*/
+
+
+/*body {
+  width: 100%;
+  background: url('../img/5.jpg') center top no-repeat;
+  background-size: cover;
+  font-family: Arial;
+}
+.title {
+  text-align: center;
+  font-size: 40px;
+  color: #8B0000;
+  margin-top: 100px;
+}
+.all_time {
+  margin: auto;
+  margin-top: 90px;
+  background: rgba(153, 51, 51, 0.5);
+  display: block;
+  width: 280px;
+  height: 95px;
+  color: #8B0000;
+  border: 2px solid #CD5C5C;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 60px;
+}
+.all_time span {
+  font-size: 25px;
+  float: right;
+  padding-right: 50px;
+}
+#controls {
+  margin-top: 50px;
+  text-align: center;
+  display: block;
+}*/
