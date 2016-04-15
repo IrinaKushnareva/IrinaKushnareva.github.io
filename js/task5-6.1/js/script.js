@@ -26,11 +26,10 @@ function increment(){
  if(running == 1){
   setTimeout(function(){
   time++;
-  var hours = Math.floor(time / (3600*1000));
-  var minutes = Math.floor((time -= hours*60*60*1000) / (60*1000));
-  var seconds = Math.floor((time -= minutes*60*1000) / 1000 );
-  var milli = Math.floor(time -= seconds*1000);
-  // var milli = time - minutes*3600 - seconds*1000;
+  var hours = Math.floor(time/(3600*60));
+  var minutes = Math.floor(time/(3600));
+  var seconds = Math.floor((time - minutes*3600)/60);
+  var milli = time - minutes*3600 - seconds*60;
 
   if (hours < 10) hour = '0'+ hours;
 	if (minutes < 10) minutes = '0'+minutes;
@@ -39,6 +38,6 @@ function increment(){
 
   document.getElementById("output").innerHTML = hours + ":" + minutes + ":" + seconds + "</br>" + "<span>" + milli + "0" + "</span>";
    increment();
- })
+  },15)
  }
 }﻿
