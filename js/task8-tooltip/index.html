@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tooltip</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+</head>
+<body>
+  <form class="registration">
+    <div class="registration_form">
+      <div class="registration_box">
+              <label for="firstname">Firstname</label>
+              <input id="firstname" type="text">
+              <p class="firstname_tooltip tooltip" ht="firstname">Please provide your firstname.</p>
+        </div>
+        <div class="registration_box">
+              <label for="lastname">Lastname</label>
+              <input id="lastname" type="text">
+              <p class="lastname_tooltip tooltip" ht="lastname">Please provide also your lastname.</p>
+        </div>
+        <div class="registration_box">
+              <label for="address">Address</label>
+              <input id="address" type="text">
+              <p class="address_tooltip tooltip" ht="address">Your home or work address.</p>
+        </div>
+      </div>
+      <input id="showhelp" type="button" value="show help">
+  </form>
+<script src="js/script.js"></script>
+</body>
+</html>
