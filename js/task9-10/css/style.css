@@ -1,0 +1,122 @@
+
+body {
+  font-size: 13px;
+  font-family: Arial, Helvetica;
+  letter-spacing: 0.5px;
+  width: 100%;
+  background: url('../img/bg2.jpg') center top no-repeat;
+  background-size: cover;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  background: url('../img/bg.jpg') center top no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: 	#27408b;
+}
+
+/*checkbox*/
+h3 {
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+p {
+	margin: 5px 0;
+  font-size: 18px;
+}
+
+.wrap_checkbox {
+	float: left;
+	margin-left: 29%;
+  clear: both;
+}
+
+.jQcheckbox {
+	float: left;
+	margin-left: 20px;
+}
+
+.cssCheckbox {
+	float: left;
+	margin-left: 200px;
+}
+
+.niceCheck {
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../img/sprite1.png);
+	overflow: hidden;
+  -webkit-box-shadow: 0px 0px 20px 3px rgba(17,5,66,0.6);
+  -moz-box-shadow: 0px 0px 20px 3px rgba(17,5,66,0.6);
+  box-shadow: 0px 0px 20px 3px rgba(17,5,66,0.6);
+}
+
+.niceChecked {
+	background-position: 0 -17px;
+}
+.niceCheck input {
+	margin-left: -1000px;
+}
+.niceCheckDisabled {
+	background-image: url(../img/sprite1-disabled.png);
+}
+
+.cssCheckbox input[type=checkbox] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+.cssCheckbox label {
+	cursor: pointer;
+  margin-left: 20px;
+  transition: color 0.7s;
+
+}
+.cssCheckbox label:before {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox-2.png);
+  transition: 0.5s;
+  -webkit-box-shadow: 0px 0px 20px 3px rgba(17,5,66,0.6);
+  -moz-box-shadow: 0px 0px 20px 3px rgba(17,5,66,0.6);
+  box-shadow: 0px 0px 20px 3px rgba(17,5,66,0.6);
+	position: relative;
+  left: 0;
+}
+
+.cssCheckbox input[type=checkbox]:checked + label{
+  color: #cd1076;
+  transition: 1s;}
+
+.cssCheckbox input[type=checkbox]:checked + label:before {
+background-position: 0 -17px;
+}
+.cssCheckbox label:hover:before {
+background-position: 0 -34px;
+}
+input[type=checkbox]:checked + label:hover:before {
+background-position: 0 -51px;
+}
+
+
+
+.footer {
+  margin-top: 300px;
+  height: 50px;
+  width: 100%;
+  background: url('../img/bg.jpg') center top no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 50px;
+  color: #27408b;
+}
