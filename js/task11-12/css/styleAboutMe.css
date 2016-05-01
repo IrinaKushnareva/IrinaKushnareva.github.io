@@ -1,0 +1,38 @@
+.my_info{
+margin-top: 50px;
+box-shadow: 0px 5px 2px -1px rgba(0,0,0,0.85);
+}
+.box{
+	width:35%;
+	margin: 5px auto 50px;
+	background-color:white;
+	font-family: Times New Roman;
+	font-size:15px;
+	text-align: center;
+	padding: 20px 50px 60px 50px;
+}
+.photo {
+	border: 1px;
+	border-radius: 10px;
+	max-width: 150px;
+}
+.box h1{
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+}
+.box h4{
+	padding: 10px 0 10px 0;
+	text-align: left;
+	font-size: 18px;
+	font-weight: 600;
+}
+.box hr{
+	margin-bottom: 20px;
+	margin-top: 15 px;
+}
+.box p{
+	margin: 6px 0 6px 13x;
+	text-align:left;
+}

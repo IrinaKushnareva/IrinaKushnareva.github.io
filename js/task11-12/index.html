@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jcarousel(slider)</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/styleAboutMe.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="js/mySlider.js"></script>
+    <script src="js/tmpl.js"></script>
+    <script src="js/script.js"></script>
+    <!-- <script src="js/tmpl.js"></script> -->
+
+</head>
+<body>
+  <div class=wrapper>
+    <div class="jcarousel(slider)">
+    <h1>Here's how it all started, my beginning!</h1>
+      <div class="carousel-arrow-left"><span>Влево</span></div>
+		  <div class="carousel-hider">
+		  	<ul class="carousel-list">
+    				<li class="carousel-element"><img src="img/1.jpg">
+    					<p>Homework 1</p>
+    				</li>
+    				<li class="carousel-element"><img src="img/2.jpg">
+    					<p>Homework 2</p>
+    				</li>
+    				<li class="carousel-element"><img src="img/3.jpg">
+    					<p>Homework 3</p>
+    				</li>
+    				<li class="carousel-element"><img src="img/4.jpg">
+    					<p>Homework 4</p>
+    				</li>
+    				<li class="carousel-element"><img src="img/5_table.jpg">
+    					<p>Homework 5</p>
+    				</li>
+    				<li class="carousel-element"><img src="img/6.jpg">
+    					<p>Homework 6</p>
+    				</li>
+            <li class="carousel-element"><img src="img/7.jpg">
+    					<p>Homework 7</p>
+    				</li>
+    				<li class="carousel-element"><img src="img/8.jpg">
+    					<p>Homework 8</p>
+    				</li>
+		  	</ul>
+		  </div>
+		  <div class="carousel-arrow-right"><span>Вправо</span></div>
+    </div>
+<!-- Template -->
+      <script type="text/html" id="info">
+        <div class="my_info">
+               <div class="box">
+                  <h1>Кушнарёва Ирина Михайловна</h1>
+               <% for (var i = 0; i < data.length; i++) { %>
+                <img class="photo" src="<%= data[i].photo %>" alt="">
+               <h4><%= data[i].title %></h4>
+               <p><%= data[i].text %></p>
+               <hr>
+                <% }; %>
+               </div>
+             </div>
+           </script>
+  </div>
+
+</body>
+</html>
