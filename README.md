@@ -6,15 +6,6 @@
 </head>
 <body>
   <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My works</h1>
-    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML</h2>
-        <p><a href="http://irinakushnareva.github.io/html/task1/" target="_blank">1. http://irinakushnareva.github.io/html/task1</a></p>
-        <p><a href="http://irinakushnareva.github.io/html/task2/" target="_blank">2. http://irinakushnareva.github.io/html/task2</a></p>
-        <p><a href="http://irinakushnareva.github.io/html/task3/" target="_blank">3. http://irinakushnareva.github.io/html/task3</a></p>
-        <p><a href="http://irinakushnareva.github.io/html/task4/" target="_blank">4. http://irinakushnareva.github.io/html/task4</a></p>
-        <p><a href="http://irinakushnareva.github.io/html/task5table/" target="_blank">5. http://irinakushnareva.github.io/html/task5table</a></p>
-        <p><a href="http://irinakushnareva.github.io/html/task6/" target="_blank">6. http://irinakushnareva.github.io/html/task6</a></p>
-        <p><a href="http://irinakushnareva.github.io/html/task7/" target="_blank">7. http://irinakushnareva.github.io/html/task7</a></p>
-
     <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Java Script</h2>
         <p><a href="http://irinakushnareva.github.io/js/task1-2/JS_task1.1-2/" target="_blank">1. http://irinakushnareva.github.io/js/task1-2/JS_task1.1-2</a></p>
         <p><a href="http://irinakushnareva.github.io/js/task1-2/JS_task1.2-2/" target="_blank">2. http://irinakushnareva.github.io/js/task1-2/JS_task1.2-2</a></p>
