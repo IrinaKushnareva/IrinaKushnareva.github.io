@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,9 +26,4 @@
         <p><a href="http://irinakushnareva.github.io/js/task9-10/" target="_blank">9-10. http://irinakushnareva.github.io/js/task9-10</a></p>
         <p><a href="http://irinakushnareva.github.io/js/task11-12/" target="_blank">11-12. http://irinakushnareva.github.io/js/task11-12</a></p>
 
-
-
-
-</body>
-</html>
 
