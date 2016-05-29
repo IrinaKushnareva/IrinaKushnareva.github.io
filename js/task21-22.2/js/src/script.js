@@ -34,6 +34,15 @@ let questions = [
 
 	const test = localStorage.getItem('testQuestions');
 	const testObj = JSON.parse(test);
+
+	let [testObj1, testObj2, testObj3, testObj4, testObj5] = testObj;
+	let {text1, answers1, correctAnswer1} = testObj1;
+	let {text2, answers2, correctAnswer2} = testObj2;
+	let {text3, answers3, correctAnswer3} = testObj3;
+	let {text4, answers4, correctAnswer4} = testObj4;
+	let {text5, answers5, correctAnswer5} = testObj5;
+
+
 	const testList = tmpl(html, {
 		data: testObj
 	});
@@ -68,7 +77,7 @@ let questions = [
 
 	});
 
-function answersCheck() {
+	let answersCheck = () => {
 	let marked = 0;
 	for (let i = 0; i < testObj.length; i++) {
 		let inputs = $("input[value='" + i + "']");
