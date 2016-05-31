@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background: url('../img/bg2.jpg') center top no-repeat;
+}
+.wrapper{
+    width: 500px;
+    margin: auto;
+    margin-top: 10%;
+}
+.toogle{
+    display: none;
+}
+.item-value{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    height: 35px;
+    width: 90%;
+    border: 2px solid 	#ee7621;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: Open Sans;
+    color: #006400;
+    outline: none;
+}
+.label{
+    text-align: center;
+    font-size: 14px;
+    font-family: Open Sans;
+    padding-left: 10px;
+    color: #006400;
+    line-height: 34px;
+}
+.item-add{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid #ee7621;
+    font-size: 16px;
+    font-family: Open Sans;
+    color: 	#006400;
+    background: #ffb90f;
+    cursor: pointer;
+}
+.item-delete{
+    font-size: 25px;
+    font-family: Arial;
+    color: #006400;
+    display: block;
+    padding-right: 10px;
+    float: right;
+    cursor: pointer;
+}
+.item-menu{
+    background: #fff;
+    list-style-type: none;
+    height: 35px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid 	#ee7621;
+    border-radius: 10px;
+}
+.view label{
+    float: left;
+    display: block;
+    height: 35px;
+}

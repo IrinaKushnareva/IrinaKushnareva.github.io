@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>23-24</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" data-main="js/app" src="js/require.js"></script>
+</head>
+<body>
+  <script type="text/template" id="wrapper-template">
+       <div class="wrapper">
+           <ul class="item-list"></ul>
+           <div class="controls">
+               <input type="text" class="item-value">
+               <button class="item-add">Add</button>
+           </div>
+       </div>
+   </script>
+   <script type="text/template" id="list-template">
+       <% for(var i = 0; i < data.length; i++) {%>
+           <li class="item-menu">
+               <div class="view">
+                   <input class="toogle">
+                   <label class="label" data-index="<%= data[i] %>"><%= data[i] %></label>
+                   <span data-value="<%= data[i] %>" class="item-delete">x</span>
+               </div>
+           </li>
+       <% } %>
+   </script>
+</body>
+</html>
