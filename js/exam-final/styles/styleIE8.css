@@ -114,7 +114,7 @@ table {
   text-align: center;
   padding-left: 0; }
 
-.header-button, .partner-wrapper-button, .search-wrapper-button {
+.header-button, .partner-button, .search-button {
   display: block;
   width: 100%;
   max-width: 220px;
@@ -126,34 +126,34 @@ table {
   border: 2px;
   cursor: pointer;
   transition: ease-out 0.5s; }
-  .header-button p, .partner-wrapper-button p, .search-wrapper-button p {
+  .header-button p, .partner-button p, .search-button p {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     text-align: center;
     color: white;
     transition: ease-out 0.5s; }
-  .header-button p:hover, .partner-wrapper-button p:hover, .search-wrapper-button p:hover {
+  .header-button p:hover, .partner-button p:hover, .search-button p:hover {
     color: #ff4e50;
     transition: ease-out 0.5s; }
 
-.header-button:hover, .partner-wrapper-button:hover, .search-wrapper-button:hover {
+.header-button:hover, .partner-button:hover, .search-button:hover {
   background: white;
   transition: ease-out 0.5s; }
 
-.description-wrapper, .grid-wrapper {
+.sidebar-wrapper, .grid-wrapper {
   width: 100%;
   max-width: 940px;
   height: auto;
   margin: auto;
   margin-top: 35px; }
 
-.description-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-wrapper-title {
+.sidebar-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-title {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   text-align: center;
   color: #333333; }
 
-.description-item-box, .description-item-box-middle, .description-item-box-bottom {
+.sidebar-slider, .sidebar-slider-2, .sidebar-slider-3 {
   display: inline-block;
   width: 100%;
   max-width: 300px;
@@ -162,7 +162,7 @@ table {
   border-radius: 5px;
   margin-left: 10px; }
 
-.description-item-text-wrapper {
+.sidebar-text-wrapper {
   width: 260px;
   height: 150px;
   margin-left: 20px;
@@ -170,7 +170,7 @@ table {
   position: absolute;
   z-index: 10; }
 
-.description-item-button {
+.sidebar-button {
   line-height: 20px;
   width: 70px;
   background: #ff4e50;
@@ -180,7 +180,7 @@ table {
   color: white;
   text-align: center; }
 
-.description-text-top, .description-text-bottom {
+.sidebar-text-tittle, .sidebar-text-article {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: bold;
@@ -188,17 +188,17 @@ table {
   display: block;
   margin-top: 15px; }
 
-.description-text-bottom {
+.sidebar-text-article {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 100;
   margin-top: 25px; }
 
-.slider_wrap {
+.slider-wrapper {
   position: relative;
   overflow: hidden; }
 
-.slider_wrap .img {
+.slider-wrapper .img {
   width: 100%;
   display: none;
   position: absolute;
@@ -206,10 +206,10 @@ table {
   left: 0px;
   margin: 0 auto; }
 
-.slider_wrap .img:first-child {
+.slider-wrapper .img:first-child {
   display: block; }
 
-.slider_wrap span {
+.slider-wrapper span {
   margin-top: -13px;
   width: 15px;
   height: 26px;
@@ -219,18 +219,18 @@ table {
   cursor: pointer;
   background: url(../img/slider2_arrow.png) no-repeat; }
 
-.slider_wrap span.next {
+.slider-wrapper span.next {
   right: 17px;
   background-position: -15px 0; }
 
-.slider_wrap span.next:hover {
+.slider-wrapper span.next:hover {
   background-position: -15px -26px; }
 
-.slider_wrap span.prev {
+.slider-wrapper span.prev {
   left: 17px;
   background-position: 0 0; }
 
-.slider_wrap span.prev:hover {
+.slider-wrapper span.prev:hover {
   background-position: 0 -26px; }
 
 .img {
@@ -238,14 +238,14 @@ table {
   max-width: 300px;
   height: 400px; }
 
-.one {
-  background: url("../img/cont1440-first-bg.jpg") center 0 no-repeat; }
+.foto1 {
+  background: url("../img/foto1-1440px.jpg") center 0 no-repeat; }
 
-.two {
-  background: url("../img/cont1440-second-bg.jpg") center 0 no-repeat; }
+.foto2 {
+  background: url("../img/foto2-1440px.jpg") center 0 no-repeat; }
 
-.three {
-  background: url("../img/cont1440-third-bg.jpg") center 0 no-repeat; }
+.foto3 {
+  background: url("../img/foto3-1440px.jpg") center 0 no-repeat; }
 
 .partner-wrapper {
   width: 100%;
@@ -257,25 +257,26 @@ table {
 .partner-wrapper-title-768 {
   display: none; }
 
-.partner-wrapper-box, .partner-wrapper-box-second, .partner-wrapper-box-third, .partner-wrapper-box-bottom {
+.partner-wrapper-box, .partner-wrapper-box-2, .partner-wrapper-box-3, .partner-wrapper-box-4 {
+  margin-bottom: 40px;
   width: 220px;
   height: 205px;
   margin: 0;
   float: left;
   margin-top: 30px;
-  margin-left: 10px;
+  margin-left: 1px;
   cursor: pointer; }
-  .partner-wrapper-box img, .partner-wrapper-box-second img, .partner-wrapper-box-third img, .partner-wrapper-box-bottom img {
+  .partner-wrapper-box img, .partner-wrapper-box-2 img, .partner-wrapper-box-3 img, .partner-wrapper-box-4 img {
     display: block;
     margin: auto; }
-  .partner-wrapper-box .partner-text-name, .partner-wrapper-box-second .partner-text-name, .partner-wrapper-box-third .partner-text-name, .partner-wrapper-box-bottom .partner-text-name {
+  .partner-wrapper-box .partner-people-name, .partner-wrapper-box-2 .partner-people-name, .partner-wrapper-box-3 .partner-people-name, .partner-wrapper-box-4 .partner-people-name {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: bold;
     text-align: center;
     margin-top: 10px;
     color: #333333; }
-  .partner-wrapper-box .partner-text, .partner-wrapper-box-second .partner-text, .partner-wrapper-box-third .partner-text, .partner-wrapper-box-bottom .partner-text {
+  .partner-wrapper-box .partner-people-hobbies, .partner-wrapper-box-2 .partner-people-hobbies, .partner-wrapper-box-3 .partner-people-hobbies, .partner-wrapper-box-4 .partner-people-hobbies {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-size: 14px;
@@ -283,28 +284,28 @@ table {
     margin-top: 10px;
     color: #a3a3a3; }
 
-.partner-wrapper-box-second {
+.partner-wrapper-box-2 {
   height: 230px; }
 
-.partner-wrapper-button {
+.partner-button {
   clear: both;
   overflow: hidden;
-  margin-top: 20px;
+  margin-top: 40px;
   line-height: 35px;
   background: white;
   border: 2px solid #ff4e50;
   transition: ease-out 0.4s; }
-  .partner-wrapper-button p {
+  .partner-button p {
     font-family: "Montserrat", sans-serif;
     text-align: center;
     font-size: 14px;
     color: #ff4e50;
     transition: ease-out 0.4s; }
-  .partner-wrapper-button p:hover {
+  .partner-button p:hover {
     color: white;
     transition: ease-out 0.4s; }
 
-.partner-wrapper-button:hover {
+.partner-button:hover {
   background: #ff4e50;
   transition: ease-out 0.4s; }
 
@@ -368,7 +369,7 @@ table {
   margin-top: 50px;
   padding-bottom: 50px; }
 
-.search-wrapper-text {
+.search-text {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-align: center;
@@ -376,9 +377,9 @@ table {
   color: #4e4e4e;
   padding-top: 10px; }
 
-.search-wrapper-input-box {
+.search-input-box {
   width: 100%;
-  max-width: 280px;
+  max-width: 223px;
   margin: auto;
   margin-left: 30%;
   margin-top: 40px;
@@ -386,18 +387,19 @@ table {
 
 #search-input {
   width: 100%;
-  max-width: 265px;
-  height: 38px;
+  max-width: 223px;
+  height: 28px;
   border-radius: 5px;
   border: 1px solid #cccccc;
   outline: none;
-  padding-left: 15px; }
+  padding-left: 15px;
+  padding-top: 10px; }
 
 #search-input:focus {
   border: 1px solid #ff4e50; }
 
-.search-wrapper-button {
-  margin-left: 10px;
+.search-button {
+  margin-left: 40px;
   margin-top: 40px;
   float: left;
   font-family: "Montserrat", sans-serif;
@@ -405,9 +407,11 @@ table {
   text-align: center;
   color: white;
   width: 160px;
-  line-height: 40px; }
+  line-height: 40px;
+  box-sizing: border-box; }
 
-.search-wrapper-button:hover {
+.search-button:hover {
+  box-sizing: border-box;
   color: #ff4e50;
   border: 1px solid #ff4e50; }
 
@@ -525,28 +529,28 @@ table {
     text-align: center;
     padding-left: 0; }
 
-  .header-button, .partner-wrapper-button, .search-wrapper-button {
+  .header-button, .partner-button, .search-button {
     display: block;
     max-width: 220px;
     line-height: 35px;
     margin: auto;
     margin-top: 30px; }
 
-  .description-wrapper, .grid-wrapper {
+  .sidebar-wrapper, .grid-wrapper {
     width: 100%;
     max-width: 768px;
     height: auto;
     margin: auto;
     margin-top: 35px; }
 
-  .description-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-wrapper-title {
+  .sidebar-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-title {
     font-family: "Montserrat", sans-serif;
     padding-top: 30px;
     font-size: 22px;
     text-align: center;
     color: #333333; }
 
-  .description-item-box, .description-item-box-middle, .description-item-box-bottom {
+  .sidebar-slider, .sidebar-slider-2, .sidebar-slider-3 {
     display: inline-block;
     width: 100%;
     max-width: 240px;
@@ -555,7 +559,7 @@ table {
     border-radius: 5px;
     margin-left: 10px; }
 
-  .description-item-text-wrapper {
+  .sidebar-text-wrapper {
     width: 200px;
     height: 170px;
     margin-left: 20px;
@@ -563,7 +567,7 @@ table {
     position: absolute;
     z-index: 10; }
 
-  .description-item-button {
+  .sidebar-button {
     line-height: 20px;
     width: 70px;
     background: #ff4e50;
@@ -573,7 +577,7 @@ table {
     color: white;
     text-align: center; }
 
-  .description-text-top, .description-text-bottom {
+  .sidebar-text-tittle, .sidebar-text-article {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -581,17 +585,17 @@ table {
     display: block;
     margin-top: 15px; }
 
-  .description-text-bottom {
+  .sidebar-text-article {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 100;
     margin-top: 25px; }
 
-  .slider_wrap {
+  .slider-wrapper {
     position: relative;
     overflow: hidden; }
 
-  .slider_wrap .img {
+  .slider-wrapper .img {
     width: 100%;
     display: block;
     position: absolute;
@@ -599,10 +603,10 @@ table {
     left: 0px;
     margin: 0 auto; }
 
-  .slider_wrap .img:first-child {
+  .slider-wrapper .img:first-child {
     display: block; }
 
-  .slider_wrap span {
+  .slider-wrapper span {
     margin-top: -13px;
     width: 15px;
     height: 26px;
@@ -612,18 +616,18 @@ table {
     cursor: pointer;
     background: url(../img/slider2_arrow.png) no-repeat; }
 
-  .slider_wrap span.next {
+  .slider-wrapper span.next {
     right: 17px;
     background-position: -15px 0; }
 
-  .slider_wrap span.next:hover {
+  .slider-wrapper span.next:hover {
     background-position: -15px -26px; }
 
-  .slider_wrap span.prev {
+  .slider-wrapper span.prev {
     left: 17px;
     background-position: 0 0; }
 
-  .slider_wrap span.prev:hover {
+  .slider-wrapper span.prev:hover {
     background-position: 0 -26px; }
 
   .img {
@@ -631,14 +635,14 @@ table {
     max-width: 240px;
     height: 400px; }
 
-  .one {
-    background: url("../img/cont768-first-bg.jpg") center 0 no-repeat; }
+  .foto1 {
+    background: url("../img/foto1-768px.jpg") center 0 no-repeat; }
 
-  .two {
-    background: url("../img/cont768-second-bg.jpg") center 0 no-repeat; }
+  .foto2 {
+    background: url("../img/foto2-768px.jpg") center 0 no-repeat; }
 
-  .three {
-    background: url("../img/cont768-third-bg.jpg") center 0 no-repeat; }
+  .foto3 {
+    background: url("../img/foto3-768px.jpg") center 0 no-repeat; }
 
   .partner-wrapper {
     width: 100%;
@@ -653,24 +657,24 @@ table {
   .partner-wrapper-title-768 {
     display: block; }
 
-  .partner-wrapper-box, .partner-wrapper-box-second, .partner-wrapper-box-third, .partner-wrapper-box-bottom {
+  .partner-wrapper-box, .partner-wrapper-box-2, .partner-wrapper-box-3, .partner-wrapper-box-4 {
     width: 220px;
     height: 205px;
     margin: 0;
     float: left;
     margin-top: 30px;
     margin-left: 10px; }
-    .partner-wrapper-box img, .partner-wrapper-box-second img, .partner-wrapper-box-third img, .partner-wrapper-box-bottom img {
+    .partner-wrapper-box img, .partner-wrapper-box-2 img, .partner-wrapper-box-3 img, .partner-wrapper-box-4 img {
       display: block;
       margin: auto; }
-    .partner-wrapper-box .partner-text-name, .partner-wrapper-box-second .partner-text-name, .partner-wrapper-box-third .partner-text-name, .partner-wrapper-box-bottom .partner-text-name {
+    .partner-wrapper-box .partner-people-name, .partner-wrapper-box-2 .partner-people-name, .partner-wrapper-box-3 .partner-people-name, .partner-wrapper-box-4 .partner-people-name {
       font-family: "Montserrat", sans-serif;
       font-size: 14px;
       font-weight: bold;
       text-align: center;
       margin-top: 10px;
       color: #333333; }
-    .partner-wrapper-box .partner-text, .partner-wrapper-box-second .partner-text, .partner-wrapper-box-third .partner-text, .partner-wrapper-box-bottom .partner-text {
+    .partner-wrapper-box .partner-people-hobbies, .partner-wrapper-box-2 .partner-people-hobbies, .partner-wrapper-box-3 .partner-people-hobbies, .partner-wrapper-box-4 .partner-people-hobbies {
       font-family: "Roboto", sans-serif;
       font-weight: 100;
       font-size: 14px;
@@ -678,17 +682,17 @@ table {
       margin-top: 10px;
       color: #a3a3a3; }
 
-  .partner-wrapper-box-second {
+  .partner-wrapper-box-2 {
     height: 230px; }
 
-  .partner-wrapper-button {
+  .partner-button {
     clear: both;
     overflow: hidden;
     margin-top: 20px;
     line-height: 35px;
     background: white;
     border: 2px solid #ff4e50; }
-    .partner-wrapper-button p {
+    .partner-button p {
       font-family: "Montserrat", sans-serif;
       text-align: center;
       font-size: 14px;
@@ -739,7 +743,7 @@ table {
     border-bottom: 2px solid #ff4e50;
     margin-top: 30px; }
 
-  .search-wrapper-text {
+  .search-text {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     text-align: center;
@@ -747,7 +751,7 @@ table {
     color: #4e4e4e;
     padding-top: 10px; }
 
-  .search-wrapper-input-box {
+  .search-input-box {
     width: 100%;
     max-width: 240px;
     margin-left: 23%;
@@ -761,7 +765,7 @@ table {
     border-radius: 5px;
     padding-left: 15px; }
 
-  .search-wrapper-button {
+  .search-button {
     margin-left: 10px;
     margin-top: 0;
     float: left;
@@ -866,28 +870,28 @@ table {
     text-align: center;
     padding-left: 0; }
 
-  .header-button, .partner-wrapper-button, .search-wrapper-button {
+  .header-button, .partner-button, .search-button {
     display: block;
     max-width: 220px;
     line-height: 35px;
     margin: auto;
     margin-top: 30px; }
 
-  .description-wrapper, .grid-wrapper {
+  .sidebar-wrapper, .grid-wrapper {
     width: 100%;
     max-width: 940px;
     height: auto;
     margin: auto;
     margin-top: 35px; }
 
-  .description-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-wrapper-title {
+  .sidebar-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-title {
     font-family: "Montserrat", sans-serif;
     padding-top: 30px;
     font-size: 22px;
     text-align: center;
     color: #333333; }
 
-  .description-item-box, .description-item-box-middle, .description-item-box-bottom {
+  .sidebar-slider, .sidebar-slider-2, .sidebar-slider-3 {
     display: inline-block;
     width: 100%;
     max-width: 300px;
@@ -896,7 +900,7 @@ table {
     border-radius: 5px;
     margin-left: 10px; }
 
-  .description-item-text-wrapper {
+  .sidebar-text-wrapper {
     width: 200px;
     height: 170px;
     margin-left: 20px;
@@ -904,7 +908,7 @@ table {
     position: absolute;
     z-index: 10; }
 
-  .description-item-button {
+  .sidebar-button {
     line-height: 20px;
     width: 70px;
     background: #ff4e50;
@@ -914,7 +918,7 @@ table {
     color: white;
     text-align: center; }
 
-  .description-text-top, .description-text-bottom {
+  .sidebar-text-tittle, .sidebar-text-article {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -922,7 +926,7 @@ table {
     display: block;
     margin-top: 15px; }
 
-  .description-text-bottom {
+  .sidebar-text-article {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 100;
@@ -933,14 +937,14 @@ table {
     max-width: 300px;
     height: 400px; }
 
-  .one {
-    background: url("../img/cont1440-first-bg.jpg") center 0 no-repeat; }
+  .foto1 {
+    background: url("../img/foto1-1440px.jpg") center 0 no-repeat; }
 
-  .two {
-    background: url("../img/cont1440-second-bg.jpg") center 0 no-repeat; }
+  .foto2 {
+    background: url("../img/foto2-1440px.jpg") center 0 no-repeat; }
 
-  .three {
-    background: url("../img/cont1440-third-bg.jpg") center 0 no-repeat; }
+  .foto3 {
+    background: url("../img/foto3-1440px.jpg") center 0 no-repeat; }
 
   .partner-wrapper {
     width: 100%;
@@ -955,24 +959,24 @@ table {
   .partner-wrapper-title-768 {
     display: block; }
 
-  .partner-wrapper-box, .partner-wrapper-box-second, .partner-wrapper-box-third, .partner-wrapper-box-bottom {
+  .partner-wrapper-box, .partner-wrapper-box-2, .partner-wrapper-box-3, .partner-wrapper-box-4 {
     width: 220px;
     height: 205px;
     margin: 0;
     float: left;
     margin-top: 30px;
     margin-left: 10px; }
-    .partner-wrapper-box img, .partner-wrapper-box-second img, .partner-wrapper-box-third img, .partner-wrapper-box-bottom img {
+    .partner-wrapper-box img, .partner-wrapper-box-2 img, .partner-wrapper-box-3 img, .partner-wrapper-box-4 img {
       display: block;
       margin: auto; }
-    .partner-wrapper-box .partner-text-name, .partner-wrapper-box-second .partner-text-name, .partner-wrapper-box-third .partner-text-name, .partner-wrapper-box-bottom .partner-text-name {
+    .partner-wrapper-box .partner-people-name, .partner-wrapper-box-2 .partner-people-name, .partner-wrapper-box-3 .partner-people-name, .partner-wrapper-box-4 .partner-people-name {
       font-family: "Montserrat", sans-serif;
       font-size: 14px;
       font-weight: bold;
       text-align: center;
       margin-top: 10px;
       color: #333333; }
-    .partner-wrapper-box .partner-text, .partner-wrapper-box-second .partner-text, .partner-wrapper-box-third .partner-text, .partner-wrapper-box-bottom .partner-text {
+    .partner-wrapper-box .partner-people-hobbies, .partner-wrapper-box-2 .partner-people-hobbies, .partner-wrapper-box-3 .partner-people-hobbies, .partner-wrapper-box-4 .partner-people-hobbies {
       font-family: "Roboto", sans-serif;
       font-weight: 100;
       font-size: 14px;
@@ -980,17 +984,17 @@ table {
       margin-top: 10px;
       color: #a3a3a3; }
 
-  .partner-wrapper-box-second {
+  .partner-wrapper-box-2 {
     height: 230px; }
 
-  .partner-wrapper-button {
+  .partner-button {
     clear: both;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 40px;
     line-height: 35px;
     background: white;
     border: 2px solid #ff4e50; }
-    .partner-wrapper-button p {
+    .partner-button p {
       font-family: "Montserrat", sans-serif;
       text-align: center;
       font-size: 14px;
@@ -1042,7 +1046,7 @@ table {
     margin-top: 50px;
     padding-bottom: 50px; }
 
-  .search-wrapper-text {
+  .search-text {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     text-align: center;
@@ -1050,30 +1054,26 @@ table {
     color: #4e4e4e;
     padding-top: 10px; }
 
-  .search-wrapper-input-box {
+  .search-input-box {
     width: 100%;
     max-width: 240px;
     margin-left: 35%;
     margin-top: 40px;
     float: left; }
-    .search-wrapper-input-box search-input {
+    .search-input-box search-input {
       width: 100%;
       max-width: 225px;
       height: 38px;
       border-radius: 5px;
       padding-left: 15px; }
 
-  .search-wrapper-button {
+  .search-button {
     margin-left: 10px;
     float: left;
     margin-top: 40px;
     width: 160px;
+    height: 42px;
     line-height: 40px; }
-
-  .search-wrapper-button:active {
-    border: 2px solid #ff4e50;
-    border-radius: 20px;
-    color: green; }
 
   .footer {
     max-width: 940px;
@@ -1157,28 +1157,28 @@ table {
     text-align: center;
     padding-left: 0; }
 
-  .header-button, .partner-wrapper-button, .search-wrapper-button {
+  .header-button, .partner-button, .search-button {
     display: block;
     max-width: 220px;
     line-height: 35px;
     margin: auto;
     margin-top: 30px; }
 
-  .description-wrapper, .grid-wrapper {
+  .sidebar-wrapper, .grid-wrapper {
     width: 100%;
     max-width: 940px;
     height: auto;
     margin: auto;
     margin-top: 35px; }
 
-  .description-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-wrapper-title {
+  .sidebar-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-title {
     font-family: "Montserrat", sans-serif;
     padding-top: 30px;
     font-size: 22px;
     text-align: center;
     color: #333333; }
 
-  .description-item-box, .description-item-box-middle, .description-item-box-bottom {
+  .sidebar-slider, .sidebar-slider-2, .sidebar-slider-3 {
     display: inline-block;
     width: 100%;
     max-width: 300px;
@@ -1187,7 +1187,7 @@ table {
     border-radius: 5px;
     margin-left: 10px; }
 
-  .description-item-text-wrapper {
+  .sidebar-text-wrapper {
     width: 200px;
     height: 170px;
     margin-left: 20px;
@@ -1195,7 +1195,7 @@ table {
     position: absolute;
     z-index: 10; }
 
-  .description-item-button {
+  .sidebar-button {
     line-height: 20px;
     width: 70px;
     background: #ff4e50;
@@ -1205,7 +1205,7 @@ table {
     color: white;
     text-align: center; }
 
-  .description-text-top, .description-text-bottom {
+  .sidebar-text-tittle, .sidebar-text-article {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -1213,7 +1213,7 @@ table {
     display: block;
     margin-top: 15px; }
 
-  .description-text-bottom {
+  .sidebar-text-article {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 100;
@@ -1224,14 +1224,14 @@ table {
     max-width: 300px;
     height: 400px; }
 
-  .one {
-    background: url("../img/cont1440-first-bg.jpg") center 0 no-repeat; }
+  .foto1 {
+    background: url("../img/foto1-1440px.jpg") center 0 no-repeat; }
 
-  .two {
-    background: url("../img/cont1440-second-bg.jpg") center 0 no-repeat; }
+  .foto2 {
+    background: url("../img/foto2-1440px.jpg") center 0 no-repeat; }
 
-  .three {
-    background: url("../img/cont1440-third-bg.jpg") center 0 no-repeat; }
+  .foto3 {
+    background: url("../img/foto3-1440px.jpg") center 0 no-repeat; }
 
   .partner-wrapper {
     width: 100%;
@@ -1246,24 +1246,24 @@ table {
   .partner-wrapper-title-768 {
     display: block; }
 
-  .partner-wrapper-box, .partner-wrapper-box-second, .partner-wrapper-box-third, .partner-wrapper-box-bottom {
+  .partner-wrapper-box, .partner-wrapper-box-2, .partner-wrapper-box-3, .partner-wrapper-box-4 {
     width: 220px;
     height: 205px;
     margin: 0;
     float: left;
     margin-top: 30px;
     margin-left: 10px; }
-    .partner-wrapper-box img, .partner-wrapper-box-second img, .partner-wrapper-box-third img, .partner-wrapper-box-bottom img {
+    .partner-wrapper-box img, .partner-wrapper-box-2 img, .partner-wrapper-box-3 img, .partner-wrapper-box-4 img {
       display: block;
       margin: auto; }
-    .partner-wrapper-box .partner-text-name, .partner-wrapper-box-second .partner-text-name, .partner-wrapper-box-third .partner-text-name, .partner-wrapper-box-bottom .partner-text-name {
+    .partner-wrapper-box .partner-people-name, .partner-wrapper-box-2 .partner-people-name, .partner-wrapper-box-3 .partner-people-name, .partner-wrapper-box-4 .partner-people-name {
       font-family: "Montserrat", sans-serif;
       font-size: 14px;
       font-weight: bold;
       text-align: center;
       margin-top: 10px;
       color: #333333; }
-    .partner-wrapper-box .partner-text, .partner-wrapper-box-second .partner-text, .partner-wrapper-box-third .partner-text, .partner-wrapper-box-bottom .partner-text {
+    .partner-wrapper-box .partner-people-hobbies, .partner-wrapper-box-2 .partner-people-hobbies, .partner-wrapper-box-3 .partner-people-hobbies, .partner-wrapper-box-4 .partner-people-hobbies {
       font-family: "Roboto", sans-serif;
       font-weight: 100;
       font-size: 14px;
@@ -1271,17 +1271,17 @@ table {
       margin-top: 10px;
       color: #a3a3a3; }
 
-  .partner-wrapper-box-second {
+  .partner-wrapper-box-2 {
     height: 230px; }
 
-  .partner-wrapper-button {
+  .partner-button {
     clear: both;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 40px;
     line-height: 35px;
     background: white;
     border: 2px solid #ff4e50; }
-    .partner-wrapper-button p {
+    .partner-button p {
       font-family: "Montserrat", sans-serif;
       text-align: center;
       font-size: 14px;
@@ -1333,7 +1333,7 @@ table {
     margin-top: 50px;
     padding-bottom: 50px; }
 
-  .search-wrapper-text {
+  .search-text {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     text-align: center;
@@ -1341,20 +1341,20 @@ table {
     color: #4e4e4e;
     padding-top: 10px; }
 
-  .search-wrapper-input-box {
+  .search-input-box {
     width: 100%;
     max-width: 240px;
     margin-left: 39%;
     margin-top: 40px;
     float: left; }
-    .search-wrapper-input-box search-input {
+    .search-input-box search-input {
       width: 100%;
       max-width: 225px;
       height: 38px;
       border-radius: 5px;
       padding-left: 15px; }
 
-  .search-wrapper-button {
+  .search-button {
     margin-left: 10px;
     float: left;
     margin-top: 40px;
@@ -1402,20 +1402,20 @@ table {
     float: right; } }
 /*MEDIA-480-768px*/
 @media screen and (min-width: 480px) and (max-width: 760px) {
-  .description-wrapper, .grid-wrapper {
+  .sidebar-wrapper, .grid-wrapper {
     width: 100%;
     max-width: 768px;
     height: auto;
     margin: auto;
     margin-top: 35px; }
 
-  .description-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-wrapper-title {
+  .sidebar-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-title {
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
     text-align: center;
     color: #333333; }
 
-  .description-item-box, .description-item-box-middle, .description-item-box-bottom {
+  .sidebar-slider, .sidebar-slider-2, .sidebar-slider-3 {
     margin: auto;
     margin-top: 15px;
     display: block;
@@ -1424,12 +1424,12 @@ table {
     height: 400px;
     border-radius: 5px; }
 
-  .description-item-box-middle {
+  .sidebar-slider-2 {
     margin: auto;
     display: block;
     margin-top: 15px; }
 
-  .description-item-box-bottom {
+  .sidebar-slider-3 {
     margin: auto;
     display: block;
     margin-top: 15px; } }
