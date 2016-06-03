@@ -104,17 +104,12 @@ $(function(){
 });
 
 
-
-
-
 //
 // var element = document.querySelector("form");
 //    element.addEventListener("submit", function(event) {
 //        event.preventDefault();
 //        alert("Form submission cancelled.");
 //    });
-
-
 
 
 
