@@ -49,7 +49,9 @@ function slider(idSlider){
 
 $.ajax({
     type: 'GET',
-    url:'https://pixabay.com/api/?key=2664799-0e24662f5636fd778502d5776&q=holiday+dreams&image_type=photo',
+    // url:'https://pixabay.com/api/?key=2664799-0e24662f5636fd778502d5776&q=holiday+dreams&image_type=photo',
+    url:'https://pixabay.com/api/?key=2664799-0e24662f5636fd778502d5776&q=holiday&image_type=photo',
+    // url:'https://pixabay.com/api/?key=2664799-0e24662f5636fd778502d5776&q',
     dataType: 'json',
     success: function(data){
     console.log('data', data);
@@ -67,7 +69,7 @@ $.ajax({
             }
 
             shuffle(img);
-            var item = $('.grid-wrapper-box');
+            var item = $('.grid-box-item');
             item.each(function(value){
                 $(this).css('backgroundImage', 'url('+img[value]+')');
         });
@@ -88,7 +90,7 @@ $(function(){
         success: function(data){
             // console.log(data);
             var img = _.map(data.hits, 'webformatURL');
-            var item = $('.grid-wrapper-box');
+            var item = $('.grid-box-item');
 
             item.each(function(value){
                 $(this).css('backgroundImage', 'url('+img[value]+')');

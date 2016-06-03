@@ -116,6 +116,8 @@
 	border: 2px;
 	cursor: pointer;
 	transition: ease-out 0.5s;
+	outline: none;
+	box-sizing: border-box;
 	p{
 		font-family: $mont;
 		font-size: 14px;
@@ -224,27 +226,22 @@ display:block;
 }
 .slider-wrapper span {
 margin-top:-13px;
-width:15px;
-height:26px;
+width:30px;
+height:60px;
 display:block;
 position:absolute;
 top:17%;
 cursor:pointer;
-background:url(../img/slider2_arrow.png) no-repeat;
+background:url(../img/sprite.png) no-repeat;
 }
 .slider-wrapper span.next {
 right:17px;
-background-position:-15px 0;
+background-position:-34px 0;
 }
-.slider-wrapper span.next:hover {
-background-position:-15px -26px;
-}
+
 .slider-wrapper span.prev {
 left:17px;
 background-position: 0 0;
-}
-.slider-wrapper span.prev:hover {
-background-position: 0 -26px;
 }
 
 .img{
@@ -268,9 +265,6 @@ background-position: 0 -26px;
 
 // end jQuery
 
-
-
-
 .partner-wrapper{
 	width: 100%;
 	max-width: 940px;
@@ -290,13 +284,12 @@ background-position: 0 -26px;
 
 
 .partner-wrapper-box{
-	margin-bottom: 40px;
 	width: 220px;
 	height: 205px;
-	margin: 0;
 	float: left;
 	margin-top: 30px;
 	margin-left: 1px;
+	margin-bottom: 40px;
 	cursor: pointer;
 	img{
 		display: block;
@@ -322,7 +315,7 @@ background-position: 0 -26px;
 
 .partner-wrapper-box-2{
 	@extend .partner-wrapper-box;
-	height: 230px;
+	height: 205px;
 }
 
 .partner-wrapper-box-3{
@@ -342,6 +335,9 @@ background-position: 0 -26px;
 	background: white;
 	border: 2px solid $red;
 	transition: ease-out 0.4s;
+	display: block;
+	outline: none;
+	box-sizing: border-box;
 	p{
 		font-family: $mont;
 		text-align: center;
@@ -360,20 +356,13 @@ background-position: 0 -26px;
 	transition: ease-out 0.4s;
 }
 
-
-
-
-
-
-
-
-.grid-wrapper{
+.grid-box{
 	@extend .sidebar-wrapper;
 	height: auto;
 	margin-top: 50px;
 }
 
-.grid-wrapper:after {
+.grid-box:after {
   content: '';
   display: block;
   clear: both;
@@ -400,7 +389,7 @@ background-position: 0 -26px;
 
 }
 
-.grid-wrapper-box{
+.grid-box-item{
 	width: 100%;
 	max-width: 30%;
 	height: 309px;
@@ -417,9 +406,8 @@ background-position: 0 -26px;
 		text-align: center;
 		color: white;
 	}
-	.grid-wrapper-text-third{
+	.grid-box-item-article-img3{
 		padding-top: 130px;
-
 	}
 }
 
@@ -443,8 +431,6 @@ background-position: 0 -26px;
 .search-title{
 	@extend .sidebar-wrapper-title;
 }
-
-
 
 .search-text{
 	font-family: $roboto;
@@ -475,7 +461,11 @@ background-position: 0 -26px;
 	}
 
 #search-input:focus{
-	border: 1px solid #ff4e50;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#ff4e50', Direction=90, Strength=3);
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(255,78,81,1);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(255,78,81,1);
+	box-shadow: 0px 0px 10px 2px rgba(255,78,81,1);
+	border: 1px solid  $red;
 }
 
 .search-button{
@@ -489,8 +479,8 @@ background-position: 0 -26px;
 	color: white;
 	width: 160px;
 	line-height: 40px;
-	// padding-top: 10px;
 	box-sizing: border-box;
+	outline: none;
 }
 
 .search-button:hover{

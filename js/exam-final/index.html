@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>finalExam</title>
+	<title>exam-final</title>
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="styles/style.min.css" type="text/css">
 	<!--[if IE 8]><link rel="stylesheet" href="styles/styleIE8.min.css" type="text/css"><![endif]-->
@@ -18,33 +18,31 @@
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.3/jquery.xdomainrequest.min.js"></script>
 	<!-- <script src="js/jquery.xdomainrequest.min.js"></script> -->
 	<!--[if IE 8]><script src="js/underscore.js"></script><![endif]-->
-
 	<!--[if IE 8]><script src="http://underscorejs.org/underscore-min.js"></script><![endif]-->
-
 	<!-- <script src="js/allConcatScript.min.js."></script> -->
-
-	<!-- <script src="js/scriptIE.js"></script> -->
 	<script src="js/jquery.corner.js"></script>
 	<script src="js/respond.min.js"></script>
 	<script src="js/css3-mediaqueries.js"></script>
 	<script src="js/script.js"></script>
-	<script src="js/scriptIE.js"></script>
+	<!--[if IE 8]><script src="js/scriptIE.js"></script><![endif]-->
 </head>
 <body>
-	<div class="header">
-		<div class="header-entrance">
-				<a href=""><p class="header-entrance-login">Log in</p></a>
-				<a href=""><p class="header-entrance-signup">Sign up</p></a>
+	<header>
+		<div class="header">
+			<div class="header-entrance">
+					<a href=""><p class="header-entrance-login">Log in</p></a>
+					<a href=""><p class="header-entrance-signup">Sign up</p></a>
+			</div>
+			<p class="header-logo">URLAUBSGLÜCK</p>
+			<p class="header-title">SHARE YOUR<br>HOLIDAY DREAMS</p>
+			<p class="header-article">And find the perfect partner<br>to fullfill it</p>
+			<p class="header-article-768">And find the perfect partner to fullfill it</p>
+			<button class="header-button">
+					<p>Find your holiday partner</p>
+				</button>
 		</div>
-		<p class="header-logo">URLAUBSGLÜCK</p>
-		<p class="header-title">SHARE YOUR<br>HOLIDAY DREAMS</p>
-		<p class="header-article">And find the perfect partner<br>to fullfill it</p>
-		<p class="header-article-768">And find the perfect partner to fullfill it</p>
-		<button class="header-button">
-				<p>Find your holiday partner</p>
-			</button>
-		</div>
-
+	</header>
+	<sidebar>
 		<div class="sidebar-wrapper">
 			<p class="sidebar-wrapper-title">How Urlaubsglück works?</p>
 			<div id="slider1" class="sidebar-slider slider-wrapper">
@@ -61,7 +59,7 @@
 				<div class="img foto2"></div>
 				<div class="img foto3"></div>
 				<div class="img foto1"></div>
-				<div class="sidebar-item-text-wrapper">
+				<div class="sidebar-text-wrapper">
 					<div class="sidebar-button">STEP 2</div>
 					<p class="sidebar-text-tittle">Sed leo enim,<br>condimentum</p>
 					<p class="sidebar-text-article">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
@@ -78,7 +76,8 @@
 				</div>
 			</div>
 		</div>
-
+	</sidebar>
+	<content>
 		<div class="partner-wrapper">
 			<p class="partner-wrapper-title">Meet a partner for your <br>best holiday</p>
 			<p class="partner-wrapper-title-768">Meet a partner for your best holiday</p>
@@ -102,29 +101,25 @@
 				<p class="partner-people-name">Bradley Hunter</p>
 				<p class="partner-people-hobbies">Based in Chicago. I love playing tennis and loud music.</p>
 			</div>
-			<div class="partner-button">
+			<button class="partner-button">
 				<p>See other partners</p>
-			</div>
+			</button>
 		</div>
 
 		<div class="grid-search-img">
-		<p class="grid-wrapper-title">Discover holyday acivity<br>ideas</p>
-		<p class="grid-wrapper-title-768">Discover holyday acivity ideas</p>
-		<div class="grid-wrapper" data-masonry='{ "itemSelector": ".grid-wrapper-box"}'>
-			<div class="grid-wrapper-box corner"><p>Sport and Activity</p></div>
-			<div class="grid-wrapper-box corner"><p>Wellnes and Health</p></div>
-			<div class="grid-wrapper-box corner"><p class="grid-wrapper-text-third">Extreme Sports<br>and Expeditions</p></div>
-			<div class="grid-wrapper-box corner"><p>Games</p></div>
-			<div class="grid-wrapper-box grid-wide corner"><p>Culture and Education</p></div>
-			<div class="grid-wrapper-box grid-wide corner"><p>Relaxation</p></div>
-			<div class="grid-wrapper-box corner"><p>Travelling</p></div>
+			<p class="grid-wrapper-title">Discover holyday acivity<br>ideas</p>
+			<p class="grid-wrapper-title-768">Discover holyday acivity ideas</p>
+			<div class="grid-box" data-masonry='{ "itemSelector": ".grid-box-item"}'>
+				<div class="grid-box-item corner"><p>Sport and Activity</p></div>
+				<div class="grid-box-item corner"><p>Wellnes and Health</p></div>
+				<div class="grid-box-item corner"><p class="grid-box-item-article-img3">Extreme Sports<br>and Expeditions</p></div>
+				<div class="grid-box-item corner"><p>Games</p></div>
+				<div class="grid-box-item grid-wide corner"><p>Culture and Education</p></div>
+				<div class="grid-box-item grid-wide corner"><p>Relaxation</p></div>
+				<div class="grid-box-item corner"><p>Travelling</p></div>
+			</div>
 		</div>
-	</div>
-
-
-
-
-			<div class="search-wrapper">
+		<div class="search-wrapper">
 				<p class="search-title">Discover holiday activity ideas</p>
 				<p class="search-text">Hi! What are your holiday interests?</p>
 				<form>
@@ -134,23 +129,20 @@
 				<input id="search-button" type="submit" class="search-button" value="Search partners">
 				</form>
 			</div>
-
-
-
-
-
-
-	<div class="footer">
+	</content>
+	<footer>
+		<div class="footer">
 				<p class="footer-title">URLAUBSGLÜCK</p>
 				<p class="footer-menu-title">Company</p>
-		<ul class="footer-menu">
-					<a href=""><li class="menu-item">About</li></a>
-					<a href=""><li class="menu-item">Contacts</li></a>
-					<a href=""><li class="menu-item">Press</li></a>
-					<a href=""><li class="menu-item">Blog</li></a>
-		</ul>
-		<p class="footer-menu-title">Partners</p>
-		<img class="footer-logo" src="img/footer-logo.png" alt="logo">
-	</div>
+					<ul class="footer-menu">
+						<a href=""><li class="menu-item">About</li></a>
+						<a href=""><li class="menu-item">Contacts</li></a>
+						<a href=""><li class="menu-item">Press</li></a>
+						<a href=""><li class="menu-item">Blog</li></a>
+					</ul>
+				<p class="footer-menu-title">Partners</p>
+				<img class="footer-logo" src="img/footer-logo.png" alt="logo">
+		</div>
+	</footer>
 </body>
 </html>
