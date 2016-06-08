@@ -190,11 +190,11 @@ table {
   display: block;
   margin-top: 15px; }
 
-.sidebar-text-article {
+.sidebar-text-article, .sidebar-text-article {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 100;
-  margin-top: 25px; }
+  margin-top: 16px; }
 
 .slider-wrapper {
   position: relative;
@@ -217,7 +217,7 @@ table {
   height: 60px;
   display: block;
   position: absolute;
-  top: 17%;
+  top: 38%;
   cursor: pointer;
   background: url(../img/sprite.png) no-repeat; }
 
@@ -361,11 +361,10 @@ table {
 .search-wrapper {
   width: 100%;
   max-width: 2560px;
-  height: 235px;
-  border-bottom: 2px solid #ff4e50;
+  height: 285px;
+  border-bottom: 3px solid #ff4e50;
   margin-top: 30px;
-  margin-top: 50px;
-  padding-bottom: 50px; }
+  margin-top: 50px; }
 
 .search-text {
   font-family: "Roboto", sans-serif;
@@ -373,14 +372,14 @@ table {
   text-align: center;
   font-weight: 100px;
   color: #4e4e4e;
-  padding-top: 10px; }
+  padding-top: 36px; }
 
 .search-input-box {
   width: 100%;
-  max-width: 223px;
+  max-width: 240px;
   margin: auto;
   margin-left: 30%;
-  margin-top: 40px;
+  margin-top: 38px;
   float: left; }
 
 #search-input {
@@ -401,8 +400,8 @@ table {
   border: 1px solid #ff4e50; }
 
 .search-button {
-  margin-left: 40px;
-  margin-top: 40px;
+  margin-left: 10px;
+  margin-top: 38px;
   float: left;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -430,8 +429,8 @@ table {
   font-weight: bold;
   color: #ff4e50;
   text-align: left;
-  padding-top: 35px;
-  padding-left: 35px;
+  padding-top: 39px;
+  padding-left: 0px;
   display: block;
   float: left; }
 
@@ -441,8 +440,8 @@ table {
   font-weight: bold;
   color: #333333;
   text-align: left;
-  padding-top: 35px;
-  padding-left: 80px;
+  padding-top: 39px;
+  padding-left: 97px;
   display: block;
   float: left; }
 
@@ -450,9 +449,9 @@ table {
   width: 200px;
   height: 15px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 59px;
   position: absolute;
-  margin-left: 254px; }
+  margin-left: 235px; }
   .footer-menu a {
     text-decoration: none;
     float: none;
@@ -467,8 +466,8 @@ table {
 
 .footer-logo {
   margin: auto;
-  margin-top: 35px;
-  margin-right: 40px;
+  margin-top: 40px;
+  margin-right: 0px;
   float: right; }
 
 /*media=320-480px*/
@@ -480,10 +479,16 @@ table {
     max-width: 480px; }
 
   .search-wrapper {
-    max-width: 480px; }
+    max-width: 480px;
+    height: 260px; }
+
+  .search-button {
+    display: block;
+    margin: auto; }
 
   .footer {
-    max-width: 480px; } }
+    max-width: 480px;
+    margin-top: 50px; } }
 /*media=480-768px*/
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .header {
@@ -495,7 +500,7 @@ table {
     .header .header-entrance {
       margin: 0;
       float: right;
-      margin-right: 40px;
+      margin-right: 50px;
       padding-top: 40px; }
       .header .header-entrance .header-entrance-login {
         font-family: "Montserrat", sans-serif;
@@ -511,12 +516,13 @@ table {
   .header-logo, .header-title, .header-article, .header-article-768 {
     display: block;
     padding-top: 45px;
-    padding-left: 45px;
+    padding-left: 49px;
     text-align: left;
-    margin-top: 0px; }
+    margin-top: 0px;
+    letter-spacing: 0.9px; }
 
   .header-title {
-    margin-top: 120px;
+    margin-top: 113px;
     font-size: 30px;
     font-size: 52px;
     text-align: center;
@@ -546,7 +552,7 @@ table {
     max-width: 768px;
     height: auto;
     margin: auto;
-    margin-top: 35px; }
+    margin-top: 67px; }
 
   .sidebar-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-title {
     font-family: "Montserrat", sans-serif;
@@ -560,7 +566,7 @@ table {
     width: 100%;
     max-width: 240px;
     height: 400px;
-    margin-top: 30px;
+    margin-top: 34px;
     border-radius: 5px;
     margin-left: 10px; }
 
@@ -568,7 +574,7 @@ table {
     width: 200px;
     height: 170px;
     margin-left: 20px;
-    margin-top: 220px;
+    margin-top: 205px;
     position: absolute;
     z-index: 10; }
 
@@ -582,6 +588,9 @@ table {
     color: white;
     text-align: center; }
 
+  .sidebar-button-2 {
+    margin-top: 56px; }
+
   .sidebar-text-tittle, .sidebar-text-article {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
@@ -590,11 +599,12 @@ table {
     display: block;
     margin-top: 15px; }
 
-  .sidebar-text-article {
+  .sidebar-text-article, .sidebar-text-article-2 {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 100;
-    margin-top: 25px; }
+    margin-top: 16px;
+    width: 216px; }
 
   .slider-wrapper {
     position: relative;
@@ -617,7 +627,7 @@ table {
     height: 60px;
     display: block;
     position: absolute;
-    top: 17%;
+    top: 14%;
     cursor: pointer;
     background: url(../img/sprite.png) no-repeat; }
 
@@ -648,7 +658,7 @@ table {
     max-width: 480px;
     height: auto;
     margin: auto;
-    margin-top: 30px; }
+    margin-top: 68px; }
 
   .partner-wrapper-title {
     display: none; }
@@ -657,12 +667,12 @@ table {
     display: block; }
 
   .partner-wrapper-box, .partner-wrapper-box-2, .partner-wrapper-box-3, .partner-wrapper-box-4 {
-    width: 220px;
-    height: 205px;
+    width: 213px;
+    height: 229px;
     float: left;
-    margin-top: 30px;
-    margin-left: 10px;
-    margin-bottom: 40px; }
+    margin-top: 33px;
+    margin-left: 5px;
+    margin-bottom: 20px; }
     .partner-wrapper-box img, .partner-wrapper-box-2 img, .partner-wrapper-box-3 img, .partner-wrapper-box-4 img {
       display: block;
       margin: auto; }
@@ -671,14 +681,14 @@ table {
       font-size: 14px;
       font-weight: bold;
       text-align: center;
-      margin-top: 10px;
+      margin-top: 13px;
       color: #333333; }
     .partner-wrapper-box .partner-people-hobbies, .partner-wrapper-box-2 .partner-people-hobbies, .partner-wrapper-box-3 .partner-people-hobbies, .partner-wrapper-box-4 .partner-people-hobbies {
       font-family: "Roboto", sans-serif;
       font-weight: 100;
       font-size: 14px;
       text-align: center;
-      margin-top: 10px;
+      margin-top: 20px;
       color: #a3a3a3; }
 
   .partner-wrapper-box-2 {
@@ -693,7 +703,8 @@ table {
     border: 2px solid #ff4e50;
     display: block;
     outline: none;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    max-width: 193px; }
     .partner-button p {
       font-family: "Montserrat", sans-serif;
       text-align: center;
@@ -704,19 +715,19 @@ table {
     max-width: 768px;
     height: auto;
     margin-top: 10px;
-    padding-left: 5px; }
+    padding-left: 0px; }
 
   .grid-wrapper-title {
     display: none; }
 
   .grid-wrapper-title-768 {
     display: block;
-    padding-top: 60px;
-    padding-bottom: 10px; }
+    padding-top: 98px;
+    padding-bottom: 14px; }
 
   .grid-box-item {
     width: 100%;
-    max-width: 30%;
+    max-width: 31%;
     height: 309px;
     float: left;
     margin-top: 10px;
@@ -741,9 +752,9 @@ table {
   .search-wrapper {
     width: 100%;
     max-width: 768px;
-    height: 200px;
-    border-bottom: 2px solid #ff4e50;
-    margin-top: 30px; }
+    height: 285px;
+    border-bottom: 3px solid #ff4e50;
+    margin-top: 92px; }
 
   .search-text {
     font-family: "Roboto", sans-serif;
@@ -751,13 +762,13 @@ table {
     text-align: center;
     font-weight: 100px;
     color: #4e4e4e;
-    padding-top: 10px; }
+    padding-top: 36px; }
 
   .search-input-box {
     width: 100%;
     max-width: 240px;
     margin-left: 23%;
-    margin-top: 20px;
+    margin-top: 37px;
     float: left; }
 
   #search-input {
@@ -771,7 +782,7 @@ table {
     margin-left: 10px;
     margin-top: 0;
     float: left;
-    margin-top: 20px;
+    margin-top: 37px;
     width: 160px;
     line-height: 40px;
     outline: none; }
@@ -782,10 +793,11 @@ table {
 
   .footer-title {
     text-align: left;
-    padding-top: 35px;
-    padding-left: 35px;
+    padding-top: 38px;
+    padding-left: 39px;
     display: block;
-    float: left; }
+    float: left;
+    letter-spacing: 0.8px; }
 
   .footer-menu-title, .footer-logo-title {
     text-align: left;
@@ -798,9 +810,9 @@ table {
     width: 200px;
     height: 15px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 60px;
     position: absolute;
-    margin-left: 244px; }
+    margin-left: 261px; }
     .footer-menu a {
       text-decoration: none;
       float: none;
@@ -811,11 +823,11 @@ table {
 
   .footer-logo {
     margin: auto;
-    margin-top: 35px;
+    margin-top: 40px;
     margin-right: 40px;
     float: right; } }
 /*media=768-1440px*/
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 769px) and (max-width: 1440px) {
   .header {
     width: 100%;
     max-width: 1440px;
@@ -825,7 +837,7 @@ table {
     .header .header-entrance {
       margin: 0;
       float: right;
-      margin-right: 250px;
+      margin-right: 50px;
       padding-top: 40px; }
       .header .header-entrance .header-entrance-login {
         width: 45px;
@@ -852,12 +864,12 @@ table {
   .header-logo, .header-title, .header-article, .header-article-768 {
     display: block;
     padding-top: 45px;
-    padding-left: 250px;
+    padding-left: 50px;
     text-align: left;
     margin-top: 0px; }
 
   .header-title {
-    margin-top: 120px;
+    margin-top: 112px;
     font-size: 30px;
     font-size: 52px;
     text-align: center;
@@ -878,7 +890,7 @@ table {
     max-width: 220px;
     line-height: 35px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 33px;
     outline: none;
     box-sizing: border-box; }
 
@@ -887,7 +899,7 @@ table {
     max-width: 940px;
     height: auto;
     margin: auto;
-    margin-top: 35px; }
+    margin-top: 67px; }
 
   .sidebar-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-title {
     font-family: "Montserrat", sans-serif;
@@ -931,11 +943,14 @@ table {
     display: block;
     margin-top: 15px; }
 
-  .sidebar-text-article {
+  .sidebar-text-article, .sidebar-text-article-2 {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 100;
     margin-top: 25px; }
+
+  .sidebar-text-article-2 {
+    width: 266px; }
 
   .img {
     width: 100%;
@@ -1024,7 +1039,7 @@ table {
 
   .grid-box-item {
     width: 100%;
-    max-width: 30%;
+    max-width: 31%;
     height: 309px;
     float: left;
     margin-top: 10px;
@@ -1043,16 +1058,15 @@ table {
 
   .grid-wide {
     width: 100%;
-    max-width: 62%;
+    max-width: 64%;
     height: 309px; }
 
   .search-wrapper {
     width: 100%;
     max-width: 1440px;
-    height: 200px;
+    height: 285px;
     border-bottom: 2px solid #ff4e50;
-    margin-top: 50px;
-    padding-bottom: 50px; }
+    margin-top: 107px; }
 
   .search-text {
     font-family: "Roboto", sans-serif;
@@ -1060,7 +1074,7 @@ table {
     text-align: center;
     font-weight: 100px;
     color: #4e4e4e;
-    padding-top: 10px; }
+    padding-top: 36px; }
 
   .search-input-box {
     width: 100%;
@@ -1140,38 +1154,45 @@ table {
         font-family: "Montserrat", sans-serif;
         font-weight: bold;
         color: white;
-        font-size: 14px; }
+        font-size: 14px;
+        margin-top: 6px;
+        margin-left: -3px; }
+      .header .header-entrance .header-entrance-signup {
+        margin-top: -2px; }
 
   .header-logo, .header-title, .header-article, .header-article-768 {
     display: block;
-    padding-top: 45px;
+    padding-top: 47px;
     padding-left: 250px;
     text-align: left;
-    margin-top: 0px; }
+    margin-top: 0px;
+    letter-spacing: 1px; }
 
   .header-title {
-    margin-top: 120px;
-    font-size: 30px;
+    margin-top: 107px;
     font-size: 52px;
     text-align: center;
     margin-left: 0;
-    padding-left: 0; }
+    padding-left: 3px;
+    line-height: 57px;
+    letter-spacing: 0px; }
 
   .header-article {
     display: none; }
 
   .header-article-768 {
     display: block;
-    font-size: 24px;
+    font-size: 23px;
     text-align: center;
-    padding-left: 0; }
+    padding-left: 12px;
+    padding-top: 32px; }
 
   .header-button, .partner-button, .search-button {
     display: block;
     max-width: 220px;
     line-height: 35px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 38px;
     outline: none;
     box-sizing: border-box; }
 
@@ -1180,23 +1201,25 @@ table {
     max-width: 940px;
     height: auto;
     margin: auto;
-    margin-top: 35px; }
+    margin-top: 67px; }
 
   .sidebar-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-title {
     font-family: "Montserrat", sans-serif;
     padding-top: 30px;
     font-size: 22px;
     text-align: center;
-    color: #333333; }
+    color: #333333;
+    font-weight: bold; }
 
   .sidebar-slider, .sidebar-slider-2, .sidebar-slider-3 {
     display: inline-block;
     width: 100%;
     max-width: 300px;
     height: 400px;
-    margin-top: 30px;
+    margin-top: 36px;
     border-radius: 5px;
-    margin-left: 10px; }
+    margin-left: 1px;
+    margin-right: 9px; }
 
   .sidebar-text-wrapper {
     width: 200px;
@@ -1224,11 +1247,14 @@ table {
     display: block;
     margin-top: 15px; }
 
-  .sidebar-text-article {
+  .sidebar-text-article, .sidebar-text-article-2 {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 100;
-    margin-top: 25px; }
+    margin-top: 16px; }
+
+  .sidebar-text-article-2 {
+    width: 266px; }
 
   .img {
     width: 100%;
@@ -1249,7 +1275,7 @@ table {
     max-width: 940px;
     height: auto;
     margin: auto;
-    margin-top: 30px; }
+    margin-top: 65px; }
 
   .partner-wrapper-title {
     display: none; }
@@ -1259,11 +1285,12 @@ table {
 
   .partner-wrapper-box, .partner-wrapper-box-2, .partner-wrapper-box-3, .partner-wrapper-box-4 {
     width: 220px;
-    height: 205px;
+    height: 237px;
     float: left;
-    margin-top: 30px;
-    margin-left: 10px;
-    margin-bottom: 40px; }
+    margin-top: 34px;
+    margin-left: 0px;
+    margin-right: 1.5%;
+    margin-bottom: 37px; }
     .partner-wrapper-box img, .partner-wrapper-box-2 img, .partner-wrapper-box-3 img, .partner-wrapper-box-4 img {
       display: block;
       margin: auto; }
@@ -1272,14 +1299,14 @@ table {
       font-size: 14px;
       font-weight: bold;
       text-align: center;
-      margin-top: 10px;
+      margin-top: 14px;
       color: #333333; }
     .partner-wrapper-box .partner-people-hobbies, .partner-wrapper-box-2 .partner-people-hobbies, .partner-wrapper-box-3 .partner-people-hobbies, .partner-wrapper-box-4 .partner-people-hobbies {
       font-family: "Roboto", sans-serif;
       font-weight: 100;
       font-size: 14px;
       text-align: center;
-      margin-top: 10px;
+      margin-top: 16px;
       color: #a3a3a3; }
 
   .partner-wrapper-box-2 {
@@ -1294,7 +1321,8 @@ table {
     border: 2px solid #ff4e50;
     display: block;
     outline: none;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    width: 190px; }
     .partner-button p {
       font-family: "Montserrat", sans-serif;
       text-align: center;
@@ -1304,7 +1332,7 @@ table {
   .grid-box {
     max-width: 940px;
     height: auto;
-    margin-top: 10px;
+    margin-top: 0px;
     padding-left: 5px; }
 
   .grid-wrapper-title {
@@ -1312,18 +1340,20 @@ table {
 
   .grid-wrapper-title-768 {
     display: block;
-    padding-top: 60px;
-    padding-bottom: 10px; }
+    padding-top: 97px;
+    padding-bottom: 10px;
+    font-weight: bold; }
 
   .grid-box-item {
     width: 100%;
-    max-width: 30%;
-    height: 309px;
+    max-width: 31%;
+    height: 310px;
     float: left;
-    margin-top: 12px;
+    margin-top: 25px;
     background: #ff4e50;
     border-radius: 5px;
-    margin-left: 2.1%; }
+    margin-left: 0px;
+    margin-right: 1%; }
     .grid-box-item p {
       padding-top: 140px;
       font-family: "Montserrat", sans-serif;
@@ -1336,16 +1366,15 @@ table {
 
   .grid-wide {
     width: 100%;
-    max-width: 62%;
+    max-width: 64%;
     height: 309px; }
 
   .search-wrapper {
     width: 100%;
     max-width: 2560px;
-    height: 200px;
-    border-bottom: 2px solid #ff4e50;
-    margin-top: 50px;
-    padding-bottom: 50px; }
+    height: 285px;
+    border-bottom: 3px solid #ff4e50;
+    margin-top: 107px; }
 
   .search-text {
     font-family: "Roboto", sans-serif;
@@ -1353,12 +1382,12 @@ table {
     text-align: center;
     font-weight: 100px;
     color: #4e4e4e;
-    padding-top: 10px; }
+    padding-top: 36px; }
 
   .search-input-box {
     width: 100%;
     max-width: 240px;
-    margin-left: 39%;
+    margin-left: 36%;
     margin-top: 40px;
     float: left; }
     .search-input-box search-input {
@@ -1369,9 +1398,9 @@ table {
       padding-left: 15px; }
 
   .search-button {
-    margin-left: 10px;
+    margin-left: 7px;
     float: left;
-    margin-top: 40px;
+    margin-top: 38px;
     width: 160px;
     line-height: 40px;
     outline: none; }
@@ -1383,15 +1412,16 @@ table {
 
   .footer-title {
     text-align: left;
-    padding-top: 35px;
-    padding-left: 35px;
+    padding-top: 39px;
+    padding-left: 0px;
     display: block;
-    float: left; }
+    float: left;
+    letter-spacing: 0.7px; }
 
   .footer-menu-title, .footer-logo-title {
     text-align: left;
-    padding-top: 35px;
-    padding-left: 80px;
+    padding-top: 39px;
+    padding-left: 97px;
     display: block;
     float: left; }
 
@@ -1399,9 +1429,9 @@ table {
     width: 200px;
     height: 15px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 59px;
     position: absolute;
-    margin-left: 244px; }
+    margin-left: 235px; }
     .footer-menu a {
       text-decoration: none;
       float: none;
@@ -1412,8 +1442,8 @@ table {
 
   .footer-logo {
     margin: auto;
-    margin-top: 35px;
-    margin-right: 40px;
+    margin-top: 40px;
+    margin-right: 0px;
     float: right; } }
 /*media=480-760px*/
 @media screen and (min-width: 480px) and (max-width: 760px) {

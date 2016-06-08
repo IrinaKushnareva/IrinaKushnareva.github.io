@@ -198,18 +198,17 @@
 	margin-top: 15px;
 }
 
-.sidebar-text-article{
+.sidebar-text-article, .sidebar-text-article{
 	@extend .sidebar-text-tittle;
 	font-family: $roboto;
 	font-size: 14px;
 	font-weight: 100;
-	margin-top: 25px;
+	margin-top: 16px;
 }
 
 //jQuery plugin
 
 .slider-wrapper {
-
 position:relative;
 overflow:hidden;
 }
@@ -230,7 +229,7 @@ width:30px;
 height:60px;
 display:block;
 position:absolute;
-top:17%;
+top:38%;
 cursor:pointer;
 background:url(../img/sprite.png) no-repeat;
 }
@@ -421,11 +420,10 @@ background-position: 0 0;
 .search-wrapper{
 	width: 100%;
 	max-width: 2560px;
-	height: 235px;
-	border-bottom: 2px solid $red;
+	height: 285px;
+	border-bottom: 3px solid $red;
 	margin-top: 30px;
 	margin-top: 50px;
-	padding-bottom: 50px;
 }
 
 .search-title{
@@ -438,15 +436,15 @@ background-position: 0 0;
 	text-align: center;
 	font-weight: 100px;
 	color: #4e4e4e;
-	padding-top: 10px;
+	padding-top: 36px;
 }
 
 .search-input-box{
 	width: 100%;
-	max-width: 223px;
+	max-width: 240px;
 	margin: auto;
 	margin-left: 30%;
-	margin-top: 40px;
+	margin-top: 38px;
 	float: left;}
 
 	#search-input{
@@ -470,8 +468,8 @@ background-position: 0 0;
 
 .search-button{
 	@extend .header-button;
-	margin-left: 40px;
-	margin-top: 40px;
+	margin-left: 10px;
+	margin-top: 38px;
 	float: left;
 	font-family: $mont;
 	font-size: 14px;
@@ -504,8 +502,8 @@ background-position: 0 0;
 	font-weight: bold;
 	color: $red;
 	text-align: left;
-	padding-top: 35px;
-	padding-left: 35px;
+	padding-top: 39px;
+	padding-left: 0px;
 	display: block;
 	float: left;
 }
@@ -516,8 +514,8 @@ background-position: 0 0;
 	font-weight: bold;
 	color: #333333;
 	text-align: left;
-	padding-top: 35px;
-	padding-left: 80px;
+	padding-top: 39px;
+	padding-left: 97px;
 	display: block;
 	float: left;
 }
@@ -526,9 +524,9 @@ background-position: 0 0;
 	width: 200px;
 	height: 15px;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 59px;
 	position: absolute;
-	margin-left: 254px;
+	margin-left: 235px;
 	a{
 		text-decoration: none;
 		float: none;
@@ -549,8 +547,8 @@ background-position: 0 0;
 
 .footer-logo{
 	margin: auto;
-	margin-top: 35px;
-	margin-right: 40px;
+	margin-top: 40px;
+	margin-right: 0px;
 	float: right;
 }
 

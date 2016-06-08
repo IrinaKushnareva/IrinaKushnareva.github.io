@@ -115,4 +115,15 @@ $(function(){
 
 });
 
+// $.pixlayout({
+// 		src: "../exam-final/img/Desktop07_06.jpg",
+// 		opacity: 0.5,
+// 		top: 0,
+// 		center: false,
+// 		clip: true,
+// 		show: true
+// 	}, "body");
+
+
+
 });
