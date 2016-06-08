@@ -4,7 +4,7 @@ module.exports = function(grunt) {
       concat: {
          js_files: {
           src: ['js/*.js'],
-          dest: 'js/dist/allConcatScript.min.js',
+          dest: 'js/dist/allscript.min.js',
           options: {
             separator: ';'
           }
@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     uglify: {
       my_target: {
         files: {
-        'js/dist/allConcatUglifyScript.min.js': 'js/dist/allConcatScript.min.js',
+        'js/dist/allscript.min.js': 'js/dist/allscript.min.js',
       }
     }
   },

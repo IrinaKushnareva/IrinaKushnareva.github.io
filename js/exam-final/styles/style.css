@@ -45,16 +45,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-body:after {
-  content: " ";
-  top: 0;
-  left: 0;
-  background: url(../img/Tablet.png);
-  width: 768px;
-  height: 3658px;
-  position: absolute;
-  opacity: 0.5; }
-
 .header {
   width: 100%;
   max-width: 320px;
