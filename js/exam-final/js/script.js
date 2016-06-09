@@ -46,7 +46,6 @@ function slider(idSlider){
 
 
 //---ajax---
-
 $.ajax({
     type: 'GET',
     // url:'https://pixabay.com/api/?key=2664799-0e24662f5636fd778502d5776&q=holiday&image_type=photo',

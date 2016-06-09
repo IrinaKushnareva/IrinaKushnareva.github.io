@@ -10,7 +10,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700italic,700' rel='stylesheet' type='text/css'>
 	<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/lodash/4.12.0/lodash.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+	<!--[if lt IE 9]><script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script><![endif]-->
 	<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
 	<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
 	<script type="text/javascript" src="http://malsup.github.com/jquery.corner.js"></script>
@@ -23,7 +23,6 @@
 </head>
 <body>
 	<header>
-		<div class="header">
 			<div class="header-entrance">
 					<a href=""><p class="header-entrance-login">Log in</p></a>
 					<a href=""><p class="header-entrance-signup">Sign up</p></a>
@@ -35,13 +34,12 @@
 			<button class="header-button">
 					<p>Find your holiday partner</p>
 				</button>
-		</div>
 	</header>
 
-	<sidebar>
+	<aside>
 		<div class="sidebar-wrapper">
 			<p class="sidebar-wrapper-title">How Urlaubsglück works?</p>
-			<div id="slider1" class="sidebar-slider slider-wrapper">
+			<section id="slider1" class="sidebar-slider slider-wrapper">
 				<div class="img foto1"></div>
 				<div class="img foto2"></div>
 				<div class="img foto3"></div>
@@ -50,8 +48,8 @@
 					<p class="sidebar-text-tittle">Sed leo enim,<br>condimentum</p>
 					<p class="sidebar-text-article">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
 				</div>
-			</div>
-			<div id="slider2" class="sidebar-slider-2 slider-wrapper">
+			</section>
+			<section id="slider2" class="sidebar-slider-2 slider-wrapper">
 				<div class="img foto2"></div>
 				<div class="img foto3"></div>
 				<div class="img foto1"></div>
@@ -60,8 +58,8 @@
 					<p class="sidebar-text-tittle">Morbi velit risus</p>
 					<p class="sidebar-text-article-2">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
 				</div>
-			</div>
-			<div id="slider3" class="sidebar-slider-3 slider-wrapper">
+			</section>
+			<section id="slider3" class="sidebar-slider-3 slider-wrapper">
 				<div class="img foto3"></div>
 				<div class="img foto1"></div>
 				<div class="img foto2"></div>
@@ -70,40 +68,40 @@
 					<p class="sidebar-text-tittle">Sed leo enim,<br>condimentum</p>
 					<p class="sidebar-text-article">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
 				</div>
-			</div>
+			</section>
 		</div>
-	</sidebar>
+	</aside>
 
-	<content>
-		<div class="partner-wrapper">
+	<main>
+		<section class="partner-wrapper">
 			<p class="partner-wrapper-title">Meet a partner for your <br>best holiday</p>
 			<p class="partner-wrapper-title-768">Meet a partner for your best holiday</p>
-			<div class="partner-wrapper-box">
+			<figure class="partner-wrapper-box">
 				<img src="img/partner1.png" alt="partner">
-				<p class="partner-people-name">Bradley Hunter</p>
+				<figcaption class="partner-people-name">Bradley Hunter</figcaption>
 				<p class="partner-people-hobbies">Based in Chicago. I love playing tennis and loud music.</p>
-			</div>
-			<div class="partner-wrapper-box-2">
+			</figure>
+			<figure class="partner-wrapper-box-2">
 				<img src="img/partner2.png" alt="partner">
-				<p class="partner-people-name">Lucas Marsha</p>
+				<figcaption class="partner-people-name">Lucas Marsha</figcaption>
 				<p class="partner-people-hobbies">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
-			</div>
-			<div class="partner-wrapper-box-3">
+			</figure>
+			<figure class="partner-wrapper-box-3">
 				<img src="img/partner3.png" alt="partner">
-				<p class="partner-people-name">Heather Walker</p>
+				<figcaption class="partner-people-name">Heather Walker</figcaption>
 				<p class="partner-people-hobbies">I'm a happy person that loves cats and climbing on mountains.</p>
-			</div>
-			<div class="partner-wrapper-box-4">
+			</figure>
+			<figure class="partner-wrapper-box-4">
 				<img src="img/partner4.png" alt="partner">
-				<p class="partner-people-name">Bradley Hunter</p>
+				<figcaption class="partner-people-name">Bradley Hunter</figcaption>
 				<p class="partner-people-hobbies">Based in Chicago. I love playing tennis and loud music.</p>
-			</div>
+			</figure>
 			<button class="partner-button">
 				<p>See other partners</p>
 			</button>
-		</div>
+		</section>
 
-		<div class="grid-search-img">
+		<aside class="grid-search-img">
 			<p class="grid-wrapper-title">Discover holyday acivity<br>ideas</p>
 			<p class="grid-wrapper-title-768">Discover holyday acivity ideas</p>
 			<div class="grid-box" data-masonry='{ "itemSelector": ".grid-box-item"}'>
@@ -115,8 +113,8 @@
 				<div class="grid-box-item grid-wide corner"><p>Relaxation</p></div>
 				<div class="grid-box-item corner"><p>Travelling</p></div>
 			</div>
-		</div>
-		<div class="search-wrapper">
+		</aside>
+		<section class="search-wrapper">
 				<p class="search-title">Discover holiday activity ideas</p>
 				<p class="search-text">Hi! What are your holiday interests?</p>
 				<form id="search-form">
@@ -125,22 +123,22 @@
 				</div>
 				<input id="search-button" type="submit" class="search-button" value="Search partners">
 				</form>
-			</div>
-	</content>
+			</section>
+	</main>
 
 	<footer>
-		<div class="footer">
 				<p class="footer-title">URLAUBSGLÜCK</p>
 				<p class="footer-menu-title">Company</p>
+				<nav>
 					<ul class="footer-menu">
 						<a href=""><li class="menu-item">About</li></a>
 						<a href=""><li class="menu-item">Contacts</li></a>
 						<a href=""><li class="menu-item">Press</li></a>
 						<a href=""><li class="menu-item">Blog</li></a>
 					</ul>
+				</nav>
 				<p class="footer-menu-title">Partners</p>
 				<img class="footer-logo" src="img/footer-logo.png" alt="logo">
-		</div>
 	</footer>
 </body>
 </html>

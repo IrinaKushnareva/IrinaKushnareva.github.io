@@ -45,19 +45,19 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.header {
+header {
   width: 100%;
   max-width: 2560px;
   height: 700px;
   background: url(../img/1920-bg.jpg) no-repeat; }
-  .header .header-entrance {
+  header .header-entrance {
     width: 150px;
     height: 36px;
     margin: 0;
     float: right;
     padding-top: 40px;
     margin-right: 250px; }
-    .header .header-entrance .header-entrance-login {
+    header .header-entrance .header-entrance-login {
       width: 45px;
       line-height: 20px;
       float: left;
@@ -66,7 +66,7 @@ table {
       font-weight: bold;
       color: white;
       font-size: 14px; }
-    .header .header-entrance .header-entrance-signup {
+    header .header-entrance .header-entrance-signup {
       width: 85px;
       line-height: 32px;
       float: right;
@@ -78,6 +78,21 @@ table {
       font-weight: bold;
       color: white;
       font-size: 14px; }
+
+.header-entrance-signup {
+  width: 85px;
+  line-height: 32px;
+  float: right;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 0px; }
+
+.header-login-text-wrapper {
+  width: 50px;
+  line-height: 20px;
+  float: left;
+  margin-top: 7px; }
 
 .header-logo, .header-title, .header-article, .header-article-768 {
   display: block;
@@ -421,7 +436,7 @@ table {
   color: #ff4e50;
   border: 1px solid #ff4e50; }
 
-.footer {
+footer {
   clear: both;
   max-width: 940px;
   height: 190px;
@@ -476,7 +491,7 @@ table {
 
 /*media=320-480px*/
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  .header {
+  header {
     max-width: 480px; }
 
   .sidebar-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-title {
@@ -537,7 +552,7 @@ table {
     margin: auto;
     margin-top: 10px; }
 
-  .footer {
+  footer {
     max-width: 480px;
     margin-top: 0px; }
 
@@ -559,23 +574,23 @@ table {
     margin-top: 17px; } }
 /*media=480-768px*/
 @media screen and (min-width: 480px) and (max-width: 768px) {
-  .header {
+  header {
     width: 100%;
     max-width: 768px;
     height: 700px;
     background: url(../img/768-bg.jpg) no-repeat;
     background-size: cover; }
-    .header .header-entrance {
+    header .header-entrance {
       margin: 0;
       float: right;
       margin-right: 50px;
       padding-top: 40px; }
-      .header .header-entrance .header-entrance-login {
+      header .header-entrance .header-entrance-login {
         font-family: "Montserrat", sans-serif;
         font-weight: bold;
         color: white;
         font-size: 14px; }
-      .header .header-entrance .header-entrance-signup {
+      header .header-entrance .header-entrance-signup {
         font-family: "Montserrat", sans-serif;
         font-weight: bold;
         color: white;
@@ -855,7 +870,7 @@ table {
     line-height: 40px;
     outline: none; }
 
-  .footer {
+  footer {
     max-width: 768px;
     height: 190px; }
 
@@ -896,18 +911,18 @@ table {
     float: right; } }
 /*media=769-1440px*/
 @media screen and (min-width: 769px) and (max-width: 1440px) {
-  .header {
+  header {
     width: 100%;
     max-width: 1440px;
     height: 700px;
     background: url(../img/1440-bg.jpg) no-repeat;
     background-size: cover; }
-    .header .header-entrance {
+    header .header-entrance {
       margin: 0;
       float: right;
       margin-right: 50px;
       padding-top: 40px; }
-      .header .header-entrance .header-entrance-login {
+      header .header-entrance .header-entrance-login {
         width: 45px;
         line-height: 20px;
         float: left;
@@ -916,7 +931,7 @@ table {
         font-weight: bold;
         color: white;
         font-size: 14px; }
-      .header .header-entrance .header-entrance-signup {
+      header .header-entrance .header-entrance-signup {
         width: 85px;
         line-height: 32px;
         float: right;
@@ -1166,7 +1181,7 @@ table {
     line-height: 40px;
     outline: none; }
 
-  .footer {
+  footer {
     max-width: 940px;
     height: 190px;
     margin: auto; }
@@ -1207,25 +1222,25 @@ table {
     float: right; } }
 /*media max-width>1440px*/
 @media screen and (min-width: 1440px) {
-  .header {
+  header {
     width: 100%;
     max-width: 2560px;
     height: 700px;
     background: url(../img/1440-bg.jpg) no-repeat;
     background-size: cover; }
-    .header .header-entrance {
+    header .header-entrance {
       margin: 0;
       float: right;
       margin-right: 250px;
       padding-top: 40px; }
-      .header .header-entrance .header-entrance-login, .header .header-entrance .header-entrance-signup {
+      header .header-entrance .header-entrance-login, header .header-entrance .header-entrance-signup {
         font-family: "Montserrat", sans-serif;
         font-weight: bold;
         color: white;
         font-size: 14px;
         margin-top: 6px;
         margin-left: -3px; }
-      .header .header-entrance .header-entrance-signup {
+      header .header-entrance .header-entrance-signup {
         margin-top: -2px; }
 
   .header-logo, .header-title, .header-article, .header-article-768 {
@@ -1473,7 +1488,7 @@ table {
     line-height: 40px;
     outline: none; }
 
-  .footer {
+  footer {
     max-width: 940px;
     height: 190px;
     margin: auto; }

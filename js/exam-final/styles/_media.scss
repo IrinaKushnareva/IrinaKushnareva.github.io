@@ -2,7 +2,7 @@
 @import '_variables';
 
 @media screen and (min-width: 320px) and (max-width: 480px){
-.header{
+header{
 	max-width: 480px;
 }
 
@@ -71,7 +71,7 @@
 	margin-top: 10px;
 }
 
-.footer{
+footer{
 	max-width: 480px;
 	margin-top: 0px;
 }
@@ -103,7 +103,7 @@
 
 /*media=480-768px*/
 @media screen and (min-width: 480px) and (max-width: 768px){
-.header{
+header{
 	width: 100%;
 	max-width: 768px;
 	height: 700px;
@@ -450,7 +450,7 @@ background-position: 0 0;
 	outline: none;
 }
 
-.footer{
+footer{
 	max-width: 768px;
 	height: 190px;
 }
@@ -507,7 +507,7 @@ background-position: 0 0;
 /*media=769-1440px*/
 @media screen and (min-width: 769px) and (max-width: 1440px){
 
-	 .header{
+	 header{
 		width: 100%;
 		max-width: 1440px;
 		height: 700px;
@@ -824,7 +824,7 @@ background-position: 0 0;
 	outline: none;
 }
 
-.footer{
+footer{
 	max-width: 940px;
 	height: 190px;
 	margin: auto;
@@ -881,7 +881,7 @@ background-position: 0 0;
 /*media max-width>1440px*/
 @media screen and (min-width: 1440px){
 
-.header{
+header{
 	width: 100%;
 	max-width: 2560px;
 	height: 700px;
@@ -1192,7 +1192,7 @@ background-position: 0 0;
 	outline: none;
 }
 
-.footer{
+footer{
 	max-width: 940px;
 	height: 190px;
 	margin: auto;

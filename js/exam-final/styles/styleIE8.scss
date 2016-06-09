@@ -3,13 +3,11 @@
 
 
 
-.header{
+header{
 	width: 100%;
 	max-width: 2560px;
 	height: 700px;
 	background: url(../img/1920-bg.jpg) no-repeat;
-
-
 
 	.header-entrance{
 		width: 150px;
@@ -44,22 +42,22 @@
 	}
 }
 
-// .header-entrance-signup{
-// 	width: 85px;
-// 	line-height: 32px;
-// 	float: right;
-// 	text-align: center;
-// 	border: 2px solid white;
-// 	border-radius: 20px;
-// 	margin-top: 0px;
-// }
-//
-// .header-login-text-wrapper{
-// 	width: 50px;
-// 	line-height: 20px;
-// 	float: left;
-// 	margin-top: 7px;
-// }
+.header-entrance-signup{
+	width: 85px;
+	line-height: 32px;
+	float: right;
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 20px;
+	margin-top: 0px;
+}
+
+.header-login-text-wrapper{
+	width: 50px;
+	line-height: 20px;
+	float: left;
+	margin-top: 7px;
+}
 
 .header-logo{
 	display: block;
@@ -484,7 +482,7 @@ background-position: 0 0;
 	border: 1px solid $red;
 }
 
-.footer{
+footer{
 	clear: both;
 	max-width: 940px;
 	height: 190px;
