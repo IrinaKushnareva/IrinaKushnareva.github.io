@@ -147,13 +147,14 @@ table {
   max-width: 940px;
   height: auto;
   margin: auto;
-  margin-top: 35px; }
+  margin-top: 67px; }
 
 .sidebar-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-title {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   text-align: center;
-  color: #333333; }
+  color: #333333;
+  padding-top: 30px; }
 
 .sidebar-slider, .sidebar-slider-2, .sidebar-slider-3 {
   display: inline-block;
@@ -165,7 +166,7 @@ table {
   margin-left: 10px; }
 
 .sidebar-text-wrapper {
-  width: 260px;
+  width: 270px;
   height: 150px;
   margin-left: 20px;
   margin-top: 220px;
@@ -248,19 +249,22 @@ table {
   max-width: 940px;
   height: auto;
   margin: auto;
-  margin-top: 30px; }
+  margin-top: 65px; }
+
+.partner-wrapper-title {
+  padding-top: 30px; }
 
 .partner-wrapper-title-768 {
   display: none; }
 
 .partner-wrapper-box, .partner-wrapper-box-2, .partner-wrapper-box-3, .partner-wrapper-box-4 {
   width: 220px;
-  height: 205px;
+  height: 237px;
   float: left;
-  margin-top: 30px;
-  margin-left: 1px;
-  margin-bottom: 40px;
-  cursor: pointer; }
+  margin-top: 34px;
+  margin-left: 0px;
+  margin-right: 1.5%;
+  margin-bottom: 37px; }
   .partner-wrapper-box img, .partner-wrapper-box-2 img, .partner-wrapper-box-3 img, .partner-wrapper-box-4 img {
     display: block;
     margin: auto; }
@@ -289,10 +293,10 @@ table {
   line-height: 35px;
   background: white;
   border: 2px solid #ff4e50;
-  transition: ease-out 0.4s;
   display: block;
   outline: none;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  width: 190px; }
   .partner-button p {
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -309,7 +313,7 @@ table {
 
 .grid-box {
   height: auto;
-  margin-top: 50px; }
+  margin-top: 10px; }
 
 .grid-box:after {
   content: '';
@@ -321,18 +325,18 @@ table {
   font-size: 22px;
   text-align: center;
   color: black;
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 30px;
-  display: block; }
+  display: none; }
 
 .grid-wrapper-title-768 {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   text-align: center;
   color: #333333;
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 30px;
-  display: none; }
+  display: block; }
 
 .grid-box-item {
   width: 100%;
@@ -475,20 +479,84 @@ table {
   .header {
     max-width: 480px; }
 
+  .sidebar-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-title {
+    margin-bottom: 16px; }
+
+  .sidebar-button {
+    margin-top: 0px; }
+
+  .slider-wrapper span {
+    display: none; }
+
   .partner-wrapper {
-    max-width: 480px; }
+    max-width: 480px;
+    margin-top: 34px;
+    line-height: 23px;
+    height: 1062px; }
+
+  .partner-wrapper-box, .partner-wrapper-box-2, .partner-wrapper-box-3, .partner-wrapper-box-4 {
+    margin-bottom: 24px; }
+
+  .partner-people-hobbies {
+    margin-top: 7px;
+    line-height: 18px; }
+
+  .partner-button {
+    margin-top: 31px; }
+
+  .grid-wrapper-title {
+    margin-bottom: 0px;
+    padding-bottom: 9px;
+    display: block; }
+
+  .grid-wrapper-title-768 {
+    display: none; }
 
   .search-wrapper {
+    margin-top: 0px;
+    padding-top: 0px;
     max-width: 480px;
-    height: 260px; }
+    height: 267px; }
+
+  .search-title {
+    padding-top: 40px; }
+
+  .search-text {
+    padding-top: 0px; }
+
+  .search-input-box {
+    max-width: 284px;
+    margin-top: 18px; }
+
+  #search-input {
+    max-width: 264px;
+    height: 36px; }
 
   .search-button {
     display: block;
-    margin: auto; }
+    margin: auto;
+    margin-top: 10px; }
 
   .footer {
     max-width: 480px;
-    margin-top: 50px; } }
+    margin-top: 0px; }
+
+  .footer-title {
+    padding-top: 18px;
+    letter-spacing: 0.9px; }
+
+  .footer-menu-title, .footer-logo-title {
+    padding-top: 13px; }
+
+  .footer-menu {
+    margin-top: 9px; }
+
+  .footer-menu a {
+    padding-right: 9px;
+    padding-left: 3px; }
+
+  .footer-logo {
+    margin-top: 17px; } }
 /*media=480-768px*/
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .header {
@@ -779,7 +847,7 @@ table {
     padding-left: 15px; }
 
   .search-button {
-    margin-left: 10px;
+    margin-left: 10pxt;
     margin-top: 0;
     float: left;
     margin-top: 37px;
@@ -826,7 +894,7 @@ table {
     margin-top: 40px;
     margin-right: 40px;
     float: right; } }
-/*media=768-1440px*/
+/*media=769-1440px*/
 @media screen and (min-width: 769px) and (max-width: 1440px) {
   .header {
     width: 100%;
@@ -1487,13 +1555,13 @@ table {
 @media screen and (min-width: 480px) and (max-width: 520px) {
   .search-wrapper-input-box {
     margin-left: 10%; } }
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 769px) and (max-width: 1280px) {
   .search-wrapper-input-box {
     margin-left: 33%; } }
-@media screen and (min-width: 768px) and (max-width: 1168px) {
+@media screen and (min-width: 769px) and (max-width: 1168px) {
   .search-wrapper-input-box {
     margin-left: 31%; } }
-@media screen and (min-width: 768px) and (max-width: 1048px) {
+@media screen and (min-width: 769px) and (max-width: 1048px) {
   .search-wrapper-input-box {
     margin-left: 29%; } }
 @media screen and (min-width: 1440px) and (max-width: 1720px) {

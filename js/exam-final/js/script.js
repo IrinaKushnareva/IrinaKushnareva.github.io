@@ -45,13 +45,12 @@ function slider(idSlider){
 
 
 
-//ajax
+//---ajax---
 
 $.ajax({
     type: 'GET',
-    // url:'https://pixabay.com/api/?key=2664799-0e24662f5636fd778502d5776&q=holiday+dreams&image_type=photo',
-    url:'https://pixabay.com/api/?key=2664799-0e24662f5636fd778502d5776&q=holiday&image_type=photo',
-    // url:'https://pixabay.com/api/?key=2664799-0e24662f5636fd778502d5776&q',
+    // url:'https://pixabay.com/api/?key=2664799-0e24662f5636fd778502d5776&q=holiday&image_type=photo',
+    url:'https://pixabay.com/api/?key=2664799-0e24662f5636fd778502d5776&q',
     dataType: 'json',
     success: function(data){
     console.log('data', data);
@@ -80,7 +79,7 @@ $.ajax({
 
 $(function(){
 
-    $('#search-button').on('click', function(e){
+    $('#search-form').on('submit', function(e){
     e.preventDefault();
     var search = $('#search-input').val(); // write search from input field
     $.ajax({
@@ -100,30 +99,8 @@ $(function(){
             alert('Картинок с таким названием не найдено');
         }
     });
-    //  return false;
 });
 
-
-//
-// var element = document.querySelector("form");
-//    element.addEventListener("submit", function(event) {
-//        event.preventDefault();
-//        alert("Form submission cancelled.");
-//    });
-
-
-
 });
-
-// $.pixlayout({
-// 		src: "../exam-final/img/Desktop07_06.jpg",
-// 		opacity: 0.5,
-// 		top: 0,
-// 		center: false,
-// 		clip: true,
-// 		show: true
-// 	}, "body");
-
-
 
 });

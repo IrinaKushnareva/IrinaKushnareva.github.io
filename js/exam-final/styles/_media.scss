@@ -6,24 +6,100 @@
 	max-width: 480px;
 }
 
+.sidebar-wrapper-title{
+	margin-bottom: 16px;
+}
+.sidebar-button{
+	margin-top: 0px;
+}
+
+.slider-wrapper span{
+	display: none;
+}
+
 .partner-wrapper{
 	max-width: 480px;
+	margin-top: 34px;
+	line-height: 23px;
+	height: 1062px;
+}
+
+.partner-wrapper-box{
+	margin-bottom: 24px;
+}
+
+.partner-people-hobbies{
+	margin-top: 7px;
+	line-height: 18px;
+}
+
+.partner-button{
+	margin-top: 31px;
+}
+.grid-wrapper-title{
+	margin-bottom: 0px;
+	padding-bottom: 9px;
+	display: block;
+}
+.grid-wrapper-title-768{
+	display: none;
 }
 
 .search-wrapper{
+	margin-top: 0px;
+	padding-top: 0px;
 	max-width: 480px;
-	height: 260px;
+	height: 267px;
+}
+.search-title{
+	padding-top: 40px;
+}
+.search-text{
+	padding-top: 0px;
+}
+.search-input-box{
+	max-width: 284px;
+	margin-top: 18px;
+}
+#search-input{
+	max-width: 264px;
+	height: 36px;
 }
 .search-button{
 	display: block;
 	margin: auto;
+	margin-top: 10px;
 }
 
 .footer{
 	max-width: 480px;
-	margin-top: 50px;
+	margin-top: 0px;
 }
+.footer-title{
+	padding-top: 18px;
+	letter-spacing: 0.9px;
 }
+.footer-menu-title{
+	padding-top: 13px;
+}
+
+.footer-menu{
+	margin-top: 9px;
+}
+
+.footer-menu a{
+	padding-right: 9px;
+	padding-left: 3px;
+}
+.footer-logo{
+	margin-top: 17px;
+}
+
+
+}
+
+
+
 
 /*media=480-768px*/
 @media screen and (min-width: 480px) and (max-width: 768px){
@@ -169,7 +245,6 @@
 
 //jQuery plugin
 .slider-wrapper {
-
 position:relative;
 overflow:hidden;
 }
@@ -366,7 +441,7 @@ background-position: 0 0;
 	}
 
 .search-button{
-	margin-left: 10px;
+	margin-left: 10pxt;
 	margin-top: 0;
 	float: left;
 	margin-top: 37px;
@@ -429,7 +504,7 @@ background-position: 0 0;
 
 
 
-/*media=768-1440px*/
+/*media=769-1440px*/
 @media screen and (min-width: 769px) and (max-width: 1440px){
 
 	 .header{
@@ -1157,9 +1232,6 @@ background-position: 0 0;
 	}
 }
 
-// .footer-logo-title{
-// }
-
 .footer-logo{
 	margin: auto;
 	margin-top: 40px;
@@ -1168,13 +1240,6 @@ background-position: 0 0;
 }
 
 }
-
-
-
-
-
-
-
 
 
 
@@ -1222,6 +1287,7 @@ background-position: 0 0;
 
 }
 
+
 @media screen and (min-width: 480px) and (max-width: 690px){
 .search-wrapper-input-box{
 	margin-left: 20%;
@@ -1240,19 +1306,19 @@ background-position: 0 0;
 }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px){
+@media screen and (min-width: 769px) and (max-width: 1280px){
 .search-wrapper-input-box{
 	margin-left: 33%;
 }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1168px){
+@media screen and (min-width: 769px) and (max-width: 1168px){
 .search-wrapper-input-box{
 	margin-left: 31%;
 }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1048px){
+@media screen and (min-width: 769px) and (max-width: 1048px){
 .search-wrapper-input-box{
 	margin-left: 29%;
 }

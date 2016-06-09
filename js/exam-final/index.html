@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>exam-final</title>
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="styles/style.min.css" type="text/css">
 	<!--[if IE 8]><link rel="stylesheet" href="styles/styleIE8.min.css" type="text/css"><![endif]-->
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -11,24 +11,15 @@
 	<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/lodash/4.12.0/lodash.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
-	<script src="js/masonry.pkgd.min.js"></script>
-	<script src="js/imagesloaded.pkgd.min.js"></script>
-	<!-- <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
-	<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script> -->
+	<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+	<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
 	<script type="text/javascript" src="http://malsup.github.com/jquery.corner.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.3/jquery.xdomainrequest.min.js"></script>
 	<!--[if IE 8]><script src="http://underscorejs.org/underscore-min.js"></script><![endif]-->
-	<script src="js/jquery.corner.js"></script>
 	<script src="js/respond.min.js"></script>
 	<script src="js/css3-mediaqueries.js"></script>
 	<script src="js/script.js"></script>
 	<!--[if IE 8]><script src="js/scriptIE.js"></script><![endif]-->
-
-	<!-- <script src="http://pixlayout.polycreative.ru/js/jquery.pixlayout.0.9.7.js">
-	$(function(){
-		$.pixlayout("/path_to_picture/picture.ext");
-	});
-	</script> -->
 </head>
 <body>
 	<header>
@@ -128,7 +119,7 @@
 		<div class="search-wrapper">
 				<p class="search-title">Discover holiday activity ideas</p>
 				<p class="search-text">Hi! What are your holiday interests?</p>
-				<form>
+				<form id="search-form">
 				<div class="search-input-box">
 					<input id="search-input" type="text" placeholder="Enter your interests">
 				</div>

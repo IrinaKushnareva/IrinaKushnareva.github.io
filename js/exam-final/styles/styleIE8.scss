@@ -141,7 +141,7 @@
 	max-width: 940px;
 	height: auto;
 	margin: auto;
-	margin-top: 35px;
+	margin-top: 67px;
 }
 
 .sidebar-wrapper-title{
@@ -149,6 +149,7 @@
 	font-size: 22px;
 	text-align: center;
 	color: #333333;
+	padding-top: 30px;
 }
 
 .sidebar-slider{
@@ -170,7 +171,7 @@
 }
 
 .sidebar-text-wrapper{
-	width: 260px;
+	width: 270px;
 	height: 150px;
 	margin-left: 20px;
 	margin-top: 220px;
@@ -269,11 +270,12 @@ background-position: 0 0;
 	max-width: 940px;
 	height: auto;
 	margin: auto;
-	margin-top: 30px;
+	margin-top: 65px;
 }
 
 .partner-wrapper-title{
 	@extend .sidebar-wrapper-title;
+	padding-top: 30px;
 }
 
 .partner-wrapper-title-768{
@@ -284,12 +286,12 @@ background-position: 0 0;
 
 .partner-wrapper-box{
 	width: 220px;
-	height: 205px;
+	height: 237px;
 	float: left;
-	margin-top: 30px;
-	margin-left: 1px;
-	margin-bottom: 40px;
-	cursor: pointer;
+	margin-top: 34px;
+	margin-left: 0px;
+	margin-right: 1.5%;
+	margin-bottom: 37px;
 	img{
 		display: block;
 		margin: auto;
@@ -333,10 +335,10 @@ background-position: 0 0;
 	line-height: 35px;
 	background: white;
 	border: 2px solid $red;
-	transition: ease-out 0.4s;
 	display: block;
 	outline: none;
 	box-sizing: border-box;
+	width: 190px;
 	p{
 		font-family: $mont;
 		text-align: center;
@@ -358,7 +360,7 @@ background-position: 0 0;
 .grid-box{
 	@extend .sidebar-wrapper;
 	height: auto;
-	margin-top: 50px;
+	margin-top: 10px;
 }
 
 .grid-box:after {
@@ -372,9 +374,9 @@ background-position: 0 0;
 	font-size: 22px;
 	text-align: center;
 	color: black;
-	padding-top: 30px;
+	padding-top: 60px;
 	padding-bottom: 30px;
-	display: block;
+	display: none;
 }
 
 .grid-wrapper-title-768{
@@ -382,10 +384,9 @@ background-position: 0 0;
 	font-size: 22px;
 	text-align: center;
 	color: #333333;
-	padding-top: 30px;
+	padding-top: 60px;
 	padding-bottom: 30px;
-	display: none;
-
+	display: block;
 }
 
 .grid-box-item{
@@ -486,8 +487,6 @@ background-position: 0 0;
 	color: $red;
 	border: 1px solid $red;
 }
-
-
 
 .footer{
 	clear: both;
