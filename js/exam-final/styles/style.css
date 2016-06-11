@@ -771,7 +771,7 @@ footer {
     margin-top: 10px;
     background: #ff4e50;
     border-radius: 5px;
-    margin-left: 2%; }
+    margin-left: 1%; }
     .grid-box-item p, .grid-box-item .grid-box-item-article-img3 {
       padding-top: 140px;
       font-family: "Montserrat", sans-serif;
@@ -1083,7 +1083,7 @@ footer {
     margin-top: 10px;
     background: #ff4e50;
     border-radius: 5px;
-    margin-left: 2%; }
+    margin-left: 1%; }
     .grid-box-item p, .grid-box-item .grid-box-item-article-img3 {
       padding-top: 140px;
       font-family: "Montserrat", sans-serif;
@@ -1096,7 +1096,7 @@ footer {
 
   .grid-wide {
     width: 100%;
-    max-width: 64%;
+    max-width: 62%;
     height: 309px; }
 
   .search-wrapper {
@@ -1404,7 +1404,7 @@ footer {
 
   .grid-wide {
     width: 100%;
-    max-width: 64%;
+    max-width: 62%;
     height: 309px; }
 
   .search-wrapper {

@@ -383,6 +383,7 @@ background-position: 0 0;
 
 .grid-box-item{
 	width: 100%;
+	// max-width: 30%;
 	height: 120px;
 	margin-top: 10px;
 	background: $red;
@@ -401,6 +402,11 @@ background-position: 0 0;
 
 	}
 }
+
+// .grid-wide{
+// 	width: 100%;
+// 	max-width: 62%;
+// }
 
 .search-wrapper{
 	width: 100%;
