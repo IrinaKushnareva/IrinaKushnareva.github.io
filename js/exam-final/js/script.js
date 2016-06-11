@@ -10,9 +10,9 @@ slider(id1);
 slider(id2);
 slider(id3);
 
-function slider(id2Slider){
+function slider(idSlider){
 
-    var elWrap = id2Slider,
+    var elWrap = idSlider,
         el =  elWrap.find('.img'),
         indexImg = 1,
         indexMax = el.length,
