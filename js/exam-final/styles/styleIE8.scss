@@ -187,6 +187,10 @@ header{
 	color: white;
 	text-align: center;
 }
+.sidebar-button-2{
+	@extend .sidebar-button;
+	margin-top: 15px;
+}
 
 .sidebar-text-tittle{
 	font-family: $mont;
@@ -195,6 +199,7 @@ header{
 	color: white;
 	display: block;
 	margin-top: 15px;
+	width: 270px;
 }
 
 .sidebar-text-article, .sidebar-text-article-2{

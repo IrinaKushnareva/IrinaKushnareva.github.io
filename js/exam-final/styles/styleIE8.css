@@ -187,7 +187,7 @@ header {
   position: absolute;
   z-index: 10; }
 
-.sidebar-button {
+.sidebar-button, .sidebar-button-2 {
   line-height: 20px;
   width: 70px;
   background: #ff4e50;
@@ -197,13 +197,17 @@ header {
   color: white;
   text-align: center; }
 
+.sidebar-button-2 {
+  margin-top: 15px; }
+
 .sidebar-text-tittle, .sidebar-text-article, .sidebar-text-article-2 {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: white;
   display: block;
-  margin-top: 15px; }
+  margin-top: 15px;
+  width: 270px; }
 
 .sidebar-text-article, .sidebar-text-article-2 {
   font-family: "Roboto", sans-serif;
@@ -500,7 +504,7 @@ footer {
   .sidebar-wrapper-title, .partner-wrapper-title, .partner-wrapper-title-768, .search-title {
     margin-bottom: 16px; }
 
-  .sidebar-button {
+  .sidebar-button, .sidebar-button-2 {
     margin-top: 0px; }
 
   .slider-wrapper span {
@@ -664,7 +668,7 @@ footer {
     position: absolute;
     z-index: 10; }
 
-  .sidebar-button {
+  .sidebar-button, .sidebar-button-2 {
     line-height: 20px;
     width: 70px;
     background: #ff4e50;
@@ -1012,7 +1016,7 @@ footer {
     position: absolute;
     z-index: 10; }
 
-  .sidebar-button {
+  .sidebar-button, .sidebar-button-2 {
     line-height: 20px;
     width: 70px;
     background: #ff4e50;
@@ -1317,7 +1321,7 @@ footer {
     position: absolute;
     z-index: 10; }
 
-  .sidebar-button {
+  .sidebar-button, .sidebar-button-2 {
     line-height: 20px;
     width: 70px;
     background: #ff4e50;
