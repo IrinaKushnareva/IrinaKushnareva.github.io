@@ -278,7 +278,8 @@ header {
     font-size: 14px;
     text-align: center;
     margin-top: 10px;
-    color: #a3a3a3; }
+    color: #a3a3a3;
+    line-height: 16px; }
 
 .partner-wrapper-box-2 {
   height: 230px; }
@@ -528,7 +529,7 @@ footer {
   .footer-logo {
     margin-top: 17px; } }
 /*media=480-768px*/
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 770px) {
   header {
     width: 100%;
     max-width: 768px;
@@ -727,7 +728,8 @@ footer {
       font-size: 14px;
       text-align: center;
       margin-top: 20px;
-      color: #a3a3a3; }
+      color: #a3a3a3;
+      line-height: 16px; }
 
   .partner-wrapper-box-2 {
     height: 230px; }
@@ -771,7 +773,7 @@ footer {
     margin-top: 10px;
     background: #ff4e50;
     border-radius: 5px;
-    margin-left: 2%; }
+    margin-left: 1%; }
     .grid-box-item p, .grid-box-item .grid-box-item-article-img3 {
       padding-top: 140px;
       font-family: "Montserrat", sans-serif;
@@ -784,7 +786,7 @@ footer {
 
   .grid-wide {
     width: 100%;
-    max-width: 62%;
+    max-width: 63%;
     height: 309px; }
 
   .search-wrapper {
@@ -865,7 +867,7 @@ footer {
     margin-right: 40px;
     float: right; } }
 /*media=769-1440px*/
-@media screen and (min-width: 769px) and (max-width: 1440px) {
+@media screen and (min-width: 771px) and (max-width: 1440px) {
   header {
     width: 100%;
     max-width: 1440px;
@@ -1040,7 +1042,8 @@ footer {
       font-size: 14px;
       text-align: center;
       margin-top: 10px;
-      color: #a3a3a3; }
+      color: #a3a3a3;
+      line-height: 16px; }
 
   .partner-wrapper-box-2 {
     height: 230px; }
@@ -1083,7 +1086,7 @@ footer {
     margin-top: 10px;
     background: #ff4e50;
     border-radius: 5px;
-    margin-left: 2%; }
+    margin-left: 1%; }
     .grid-box-item p, .grid-box-item .grid-box-item-article-img3 {
       padding-top: 140px;
       font-family: "Montserrat", sans-serif;
@@ -1096,7 +1099,7 @@ footer {
 
   .grid-wide {
     width: 100%;
-    max-width: 62%;
+    max-width: 63%;
     height: 309px; }
 
   .search-wrapper {
@@ -1345,7 +1348,8 @@ footer {
       font-size: 14px;
       text-align: center;
       margin-top: 16px;
-      color: #a3a3a3; }
+      color: #a3a3a3;
+      line-height: 16px; }
 
   .partner-wrapper-box-2 {
     height: 230px; }
@@ -1391,7 +1395,7 @@ footer {
     background: #ff4e50;
     border-radius: 5px;
     margin-left: 0px;
-    margin-right: 2%; }
+    margin-right: 1%; }
     .grid-box-item p, .grid-box-item .grid-box-item-article-img3 {
       padding-top: 140px;
       font-family: "Montserrat", sans-serif;
@@ -1404,7 +1408,7 @@ footer {
 
   .grid-wide {
     width: 100%;
-    max-width: 62%;
+    max-width: 63%;
     height: 309px; }
 
   .search-wrapper {
@@ -1531,9 +1535,59 @@ footer {
 @media screen and (min-width: 769px) and (max-width: 1168px) {
   .search-wrapper-input-box {
     margin-left: 31%; } }
-@media screen and (min-width: 769px) and (max-width: 1048px) {
+@media screen and (min-width: 770px) and (max-width: 939px) {
   .search-wrapper-input-box {
-    margin-left: 29%; } }
+    margin-left: 29%; }
+
+  .sidebar-slider, .sidebar-slider-2, .sidebar-slider-3 {
+    display: inline-block;
+    width: 100%;
+    max-width: 240px;
+    height: 400px;
+    margin-top: 34px;
+    border-radius: 5px;
+    margin-left: 1%; }
+
+  .slider-wrapper {
+    position: relative;
+    overflow: hidden; }
+
+  .slider-wrapper .img {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    margin: 0 auto; }
+
+  .slider-wrapper .img:first-child {
+    display: block; }
+
+  .slider-wrapper span {
+    margin-top: -13px;
+    width: 30px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    top: 14%;
+    cursor: pointer;
+    background: url(../img/sprite.png) no-repeat; }
+
+  .slider-wrapper span.next {
+    right: 17px;
+    background-position: -34px 0; }
+
+  .slider-wrapper span.prev {
+    left: 17px;
+    background-position: 0 0; }
+
+  .img {
+    width: 100%;
+    max-width: 240px;
+    height: 400px; }
+
+  .partner-wrapper-box, .partner-wrapper-box-2, .partner-wrapper-box-3, .partner-wrapper-box-4 {
+    margin-left: 17%; } }
 @media screen and (min-width: 1440px) and (max-width: 1720px) {
   .search-wrapper-input-box {
     margin-left: 37%; } }
