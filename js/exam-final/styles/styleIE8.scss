@@ -197,12 +197,16 @@ header{
 	margin-top: 15px;
 }
 
-.sidebar-text-article, .sidebar-text-article{
+.sidebar-text-article, .sidebar-text-article-2{
 	@extend .sidebar-text-tittle;
 	font-family: $roboto;
 	font-size: 14px;
 	font-weight: 100;
 	margin-top: 16px;
+}
+
+.sidebar-text-article-2{
+	width: 266px;
 }
 
 //jQuery plugin

@@ -198,7 +198,7 @@ header {
   color: white;
   text-align: center; }
 
-.sidebar-text-tittle, .sidebar-text-article {
+.sidebar-text-tittle, .sidebar-text-article, .sidebar-text-article-2 {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: bold;
@@ -206,11 +206,14 @@ header {
   display: block;
   margin-top: 15px; }
 
-.sidebar-text-article, .sidebar-text-article {
+.sidebar-text-article, .sidebar-text-article-2 {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 100;
   margin-top: 16px; }
+
+.sidebar-text-article-2 {
+  width: 266px; }
 
 .slider-wrapper {
   position: relative;
@@ -674,7 +677,7 @@ footer {
   .sidebar-button-2 {
     margin-top: 56px; }
 
-  .sidebar-text-tittle, .sidebar-text-article {
+  .sidebar-text-tittle, .sidebar-text-article, .sidebar-text-article-2 {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -1018,7 +1021,7 @@ footer {
     color: white;
     text-align: center; }
 
-  .sidebar-text-tittle, .sidebar-text-article {
+  .sidebar-text-tittle, .sidebar-text-article, .sidebar-text-article-2 {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -1322,7 +1325,7 @@ footer {
     color: white;
     text-align: center; }
 
-  .sidebar-text-tittle, .sidebar-text-article {
+  .sidebar-text-tittle, .sidebar-text-article, .sidebar-text-article-2 {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: bold;
