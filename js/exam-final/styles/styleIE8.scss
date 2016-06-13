@@ -243,7 +243,7 @@ background:url(../img/sprite.png) no-repeat;
 }
 .slider-wrapper span.next {
 right:17px;
-background-position:-34px 0;
+background-position:-35px 0;
 }
 
 .slider-wrapper span.prev {
@@ -461,6 +461,7 @@ background-position: 0 0;
 		outline: none;
 		padding-left: 15px;
 		padding-top: 10px;
+		font-size: 14px;
 	}
 
 #search-input:focus{

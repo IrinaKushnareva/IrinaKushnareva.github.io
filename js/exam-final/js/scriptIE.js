@@ -18,9 +18,7 @@ $(function(){
             }
 
             shuffle(img);
-
             var item = $('.grid-box-item');
-
             item.each(function(value){
                 $(this).css('backgroundImage', 'url('+img[value]+')');
         });
@@ -33,7 +31,6 @@ $(function(){
     $(function(){
 
       $('#search-form').on('submit', function(e){
-        // $('#search-button').on('click', function(e){
         e.preventDefault();
         var search = $('#search-input').val(); // write search from input field
 
