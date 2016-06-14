@@ -2,7 +2,7 @@ $(function(){
 
 $('.corner').corner();  //border radius for IE 8
 
-// JQuery-plugin-slider
+//------plugin-slider
 
 $(function slider1() {
   $(function () {
@@ -65,5 +65,19 @@ $(function(){
 });
 });
 
+
+
+// ---retina---------
+$(document).ready(function(){
+  if (window.devicePixelRatio > 1) {
+    var lowresImages = $('img');
+
+    images.each(function(i) {
+      var lowres = $(this).attr('src');
+      var highres = lowres.replace(".", "@2x.");
+      $(this).attr('src', highres);
+    });
+  }
+});
 
 });

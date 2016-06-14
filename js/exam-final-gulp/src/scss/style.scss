@@ -17,7 +17,7 @@ header{
 	width: 100%;
 	max-width: 320px;
 	height: 540px;
-	background: url(../img/@2x/320-bg@2x.jpg) no-repeat;
+	background-image: url(../img/320-bg.jpg) no-repeat;
 	background-size: cover;
 	.header-entrance{
 		width: 150px;
@@ -49,6 +49,16 @@ header{
 		}
 	}
 }
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  header {
+    background-image: url(../img/@2x/320-bg@2x.jpg) no-repeat;
+  }
+}
+
 
 .header-logo{
 	display: block;
@@ -268,14 +278,30 @@ background-position: 0 0;
 }
 
 .foto1{
-    background: url('../img/@2x/foto1@2x.jpg') center 0 no-repeat;
+    background: url('../img/foto1.jpg') center 0 no-repeat;
   }
 .foto2{
-    background: url('../img/@2x/foto2@2x.jpg') center 0 no-repeat;
+    background: url('../img/foto2.jpg') center 0 no-repeat;
   }
 .foto3{
-    background: url('../img/@2x/foto3@2x.jpg') center 0 no-repeat;
+    background: url('../img/foto3.jpg') center 0 no-repeat;
   }
+
+
+	@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+	only screen and (-moz-min-device-pixel-ratio: 1.5),
+	only screen and (-o-min-device-pixel-ratio: 3/2),
+	only screen and (min-device-pixel-ratio: 1.5) {
+	  .foto1 {
+	    background-image: url('../img/@2x/foto1@2x.jpg') center 0 no-repeat;
+	  }
+		.foto2{
+		    background-image: url('../img/@2x/foto2@2x.jpg') center 0 no-repeat;
+		  }
+		.foto3{
+		    background-image: url('../img/@2x/foto3@2x.jpg') center 0 no-repeat;
+		  }
+	}
 
 // end jQuery
 
