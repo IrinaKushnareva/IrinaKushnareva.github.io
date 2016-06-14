@@ -1,0 +1,151 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$sprite-arow-left-2x-name: 'sprite-arow-left@2x';
+$sprite-arow-left-2x-x: 0px;
+$sprite-arow-left-2x-y: 0px;
+$sprite-arow-left-2x-offset-x: 0px;
+$sprite-arow-left-2x-offset-y: 0px;
+$sprite-arow-left-2x-width: 34px;
+$sprite-arow-left-2x-height: 60px;
+$sprite-arow-left-2x-total-width: 230px;
+$sprite-arow-left-2x-total-height: 60px;
+$sprite-arow-left-2x-image: '../img/sprite@2x.png';
+$sprite-arow-left-2x: (0px, 0px, 0px, 0px, 34px, 60px, 230px, 60px, '../img/sprite@2x.png', 'sprite-arow-left@2x', );
+$sprite-arow-right-2x-name: 'sprite-arow-right@2x';
+$sprite-arow-right-2x-x: 34px;
+$sprite-arow-right-2x-y: 0px;
+$sprite-arow-right-2x-offset-x: -34px;
+$sprite-arow-right-2x-offset-y: 0px;
+$sprite-arow-right-2x-width: 34px;
+$sprite-arow-right-2x-height: 60px;
+$sprite-arow-right-2x-total-width: 230px;
+$sprite-arow-right-2x-total-height: 60px;
+$sprite-arow-right-2x-image: '../img/sprite@2x.png';
+$sprite-arow-right-2x: (34px, 0px, -34px, 0px, 34px, 60px, 230px, 60px, '../img/sprite@2x.png', 'sprite-arow-right@2x', );
+$sprite-partner1-tv-2x-name: 'sprite-partner1-tv@2x';
+$sprite-partner1-tv-2x-x: 68px;
+$sprite-partner1-tv-2x-y: 0px;
+$sprite-partner1-tv-2x-offset-x: -68px;
+$sprite-partner1-tv-2x-offset-y: 0px;
+$sprite-partner1-tv-2x-width: 40px;
+$sprite-partner1-tv-2x-height: 40px;
+$sprite-partner1-tv-2x-total-width: 230px;
+$sprite-partner1-tv-2x-total-height: 60px;
+$sprite-partner1-tv-2x-image: '../img/sprite@2x.png';
+$sprite-partner1-tv-2x: (68px, 0px, -68px, 0px, 40px, 40px, 230px, 60px, '../img/sprite@2x.png', 'sprite-partner1-tv@2x', );
+$sprite-partner2-coffee-2x-name: 'sprite-partner2-coffee@2x';
+$sprite-partner2-coffee-2x-x: 108px;
+$sprite-partner2-coffee-2x-y: 0px;
+$sprite-partner2-coffee-2x-offset-x: -108px;
+$sprite-partner2-coffee-2x-offset-y: 0px;
+$sprite-partner2-coffee-2x-width: 40px;
+$sprite-partner2-coffee-2x-height: 40px;
+$sprite-partner2-coffee-2x-total-width: 230px;
+$sprite-partner2-coffee-2x-total-height: 60px;
+$sprite-partner2-coffee-2x-image: '../img/sprite@2x.png';
+$sprite-partner2-coffee-2x: (108px, 0px, -108px, 0px, 40px, 40px, 230px, 60px, '../img/sprite@2x.png', 'sprite-partner2-coffee@2x', );
+$sprite-partner3-test-tube-2x-name: 'sprite-partner3-test-tube@2x';
+$sprite-partner3-test-tube-2x-x: 148px;
+$sprite-partner3-test-tube-2x-y: 0px;
+$sprite-partner3-test-tube-2x-offset-x: -148px;
+$sprite-partner3-test-tube-2x-offset-y: 0px;
+$sprite-partner3-test-tube-2x-width: 41px;
+$sprite-partner3-test-tube-2x-height: 40px;
+$sprite-partner3-test-tube-2x-total-width: 230px;
+$sprite-partner3-test-tube-2x-total-height: 60px;
+$sprite-partner3-test-tube-2x-image: '../img/sprite@2x.png';
+$sprite-partner3-test-tube-2x: (148px, 0px, -148px, 0px, 41px, 40px, 230px, 60px, '../img/sprite@2x.png', 'sprite-partner3-test-tube@2x', );
+$sprite-partner4-aero-2x-name: 'sprite-partner4-aero@2x';
+$sprite-partner4-aero-2x-x: 189px;
+$sprite-partner4-aero-2x-y: 0px;
+$sprite-partner4-aero-2x-offset-x: -189px;
+$sprite-partner4-aero-2x-offset-y: 0px;
+$sprite-partner4-aero-2x-width: 41px;
+$sprite-partner4-aero-2x-height: 40px;
+$sprite-partner4-aero-2x-total-width: 230px;
+$sprite-partner4-aero-2x-total-height: 60px;
+$sprite-partner4-aero-2x-image: '../img/sprite@2x.png';
+$sprite-partner4-aero-2x: (189px, 0px, -189px, 0px, 41px, 40px, 230px, 60px, '../img/sprite@2x.png', 'sprite-partner4-aero@2x', );
+$spritesheet-width: 230px;
+$spritesheet-height: 60px;
+$spritesheet-image: '../img/sprite@2x.png';
+$spritesheet-sprites: ($sprite-arow-left-2x, $sprite-arow-right-2x, $sprite-partner1-tv-2x, $sprite-partner2-coffee-2x, $sprite-partner3-test-tube-2x, $sprite-partner4-aero-2x, );
+$spritesheet: (230px, 60px, '../img/sprite@2x.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
