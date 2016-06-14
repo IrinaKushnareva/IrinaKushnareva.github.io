@@ -5,31 +5,16 @@ $(function(){
         method: 'GET',
         success: function(data){
             // console.log(data);
-            var img = _.map(data.hits, 'webformatURL');
-
-            function shuffle(a) {   //picture shuffler
-                var j, x, i;
-                for (i = a.length; i; i -= 1) {
-                    j = Math.round(Math.random() * i);
-                    x = a[i - 1];
-                    a[i - 1] = a[j];
-                    a[j] = x;
-                }
-            }
-
-            shuffle(img);
             var item = $('.grid-box-item');
-            item.each(function(value){
-                $(this).css('backgroundImage', 'url('+img[value]+')');
-        });
-    },
-        error: function(){
-            alert('Картинок с таким названием не найдено');
-        }
+            item.each(function (index) {
+              $(this).css('backgroundImage', 'url('+data.hits[index].webformatURL+')', 'text');
+              $(this).find('p').text(data.hits[index].tags.split(',')[0]);
+            });
+
+    }
     });
 
     $(function(){
-
       $('#search-form').on('submit', function(e){
         e.preventDefault();
         var search = $('#search-input').val(); // write search from input field
@@ -40,12 +25,12 @@ $(function(){
             method: 'GET',
             success: function(data){
                 // console.log(data);
-                var img = _.map(data.hits, 'webformatURL');
                 var item = $('.grid-box-item');
+                item.each(function (index) {
+                  $(this).css('backgroundImage', 'url('+data.hits[index].webformatURL+')', 'text');
+                  $(this).find('p').text(data.hits[index].tags.split(',')[0]);
+                });
 
-                item.each(function(value){
-                    $(this).css('backgroundImage', 'url('+img[value]+')');
-            });
         },
             error: function(){
                 alert('Картинок с таким названием не найдено');
