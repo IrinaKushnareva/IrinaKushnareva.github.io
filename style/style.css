@@ -1,0 +1,21 @@
+body{
+  background: 	#e066ff;
+  background-image: radial-gradient(	#f0f8ff,	#00fa9a);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin-left: 100px;
+}
+h1{
+  color: #8b0a50;
+}
+h2{
+  margin-top: 50px;
+  color: #8b2252;
+}
+ p{
+   padding-left: 30px;
+ }
+ a{
+   margin-right: 10px;
+ }
