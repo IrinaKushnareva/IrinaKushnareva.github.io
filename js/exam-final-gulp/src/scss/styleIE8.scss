@@ -361,13 +361,13 @@ background-position: 0 0;
 	transition: ease-out 0.4s;
 }
 
-.grid-box{
+.grid{
 	@extend .sidebar-wrapper;
 	height: auto;
 	margin-top: 10px;
 }
 
-.grid-box:after {
+.grid:after {
   content: '';
   display: block;
   clear: both;
@@ -393,7 +393,7 @@ background-position: 0 0;
 	display: block;
 }
 
-.grid-box-item{
+.grid-item{
 	width: 100%;
 	max-width: 31%;
 	height: 309px;
@@ -410,7 +410,7 @@ background-position: 0 0;
 		text-align: center;
 		color: white;
 	}
-	.grid-box-item-article-img3{
+	.grid-item-article-img3{
 		padding-top: 130px;
 	}
 }
@@ -420,7 +420,6 @@ background-position: 0 0;
 	max-width: 63%;
 	height: 309px;
 }
-
 
 .search-wrapper{
 	width: 100%;

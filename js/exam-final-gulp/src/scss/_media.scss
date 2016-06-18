@@ -50,7 +50,7 @@ header{
 .grid-wrapper-title-768{
 	display: none;
 }
-.grid-box-item p {
+.grid-item p {
 	padding-top: 15%;
 }
 .search-wrapper{
@@ -365,7 +365,7 @@ background-position: 0 0;
 	}
 }
 
-.grid-box{
+.grid{
 	max-width: 768px;
 	height: auto;
 	margin-top: 10px;
@@ -382,11 +382,11 @@ background-position: 0 0;
 	padding-bottom: 14px;
 }
 
-.grid-box-item{
+.grid-item{
 	width: 100%;
 	max-width: 31%;
 	height: 309px;
-	float: left;
+	// float: left;
 	margin-top: 10px;
 	background: $red;
 	border-radius: 5px;
@@ -399,7 +399,7 @@ background-position: 0 0;
 		text-align: center;
 		color: white;
 	}
-	.grid-box-item-article-img3{
+	.grid-item-article-img3{
 		padding-top: 130px;
 	}
 }
@@ -741,7 +741,7 @@ footer{
 	}
 }
 
-.grid-box{
+.grid{
 	max-width: 940px;
 	height: auto;
 	margin-top: 10px;
@@ -758,11 +758,11 @@ footer{
 	padding-bottom: 10px;
 }
 
-.grid-box-item{
+.grid-item{
 	width: 100%;
 	max-width: 31%;
 	height: 309px;
-	float: left;
+	// float: left;
 	margin-top: 10px;
 	background: $red;
 	border-radius: 5px;
@@ -775,7 +775,7 @@ footer{
 		text-align: center;
 		color: white;
 	}
-	.grid-box-item-article-img3{
+	.grid-item-article-img3{
 		padding-top: 130px;
 	}
 }
@@ -1108,7 +1108,7 @@ header{
 	}
 }
 
-.grid-box{
+.grid{
 	max-width: 940px;
 	height: auto;
 	margin-top: 0px;
@@ -1126,11 +1126,11 @@ header{
 	font-weight: bold;
 }
 
-.grid-box-item{
+.grid-item{
 	width: 100%;
 	max-width: 31%;
 	height: 310px;
-	float: left;
+	// float: left;
 	margin-top: 25px;
 	background: $red;
 	border-radius: 5px;
@@ -1144,7 +1144,7 @@ header{
 		text-align: center;
 		color: white;
 	}
-	.grid-box-item-article-img3{
+	.grid-item-article-img3{
 		padding-top: 130px;
 
 	}

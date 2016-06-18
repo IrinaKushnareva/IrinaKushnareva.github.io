@@ -3,7 +3,7 @@
      License: none (public domain)
   */
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, .grid-box-item .grid-box-item-article-img3, blockquote, pre,
+h1, h2, h3, h4, h5, h6, p, .grid-item .grid-item-article-img3, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -122,13 +122,13 @@ header {
   transition: ease-out 0.5s;
   outline: none;
   box-sizing: border-box; }
-  .header-button p, .partner-button p, .search-button p, .header-button .grid-box-item .grid-box-item-article-img3, .grid-box-item .header-button .grid-box-item-article-img3, .partner-button .grid-box-item .grid-box-item-article-img3, .grid-box-item .partner-button .grid-box-item-article-img3, .search-button .grid-box-item .grid-box-item-article-img3, .grid-box-item .search-button .grid-box-item-article-img3 {
+  .header-button p, .partner-button p, .search-button p, .header-button .grid-item .grid-item-article-img3, .grid-item .header-button .grid-item-article-img3, .partner-button .grid-item .grid-item-article-img3, .grid-item .partner-button .grid-item-article-img3, .search-button .grid-item .grid-item-article-img3, .grid-item .search-button .grid-item-article-img3 {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     text-align: center;
     color: white;
     transition: ease-out 0.5s; }
-  .header-button p:hover, .partner-button p:hover, .search-button p:hover, .header-button .grid-box-item .grid-box-item-article-img3:hover, .grid-box-item .header-button .grid-box-item-article-img3:hover, .partner-button .grid-box-item .grid-box-item-article-img3:hover, .grid-box-item .partner-button .grid-box-item-article-img3:hover, .search-button .grid-box-item .grid-box-item-article-img3:hover, .grid-box-item .search-button .grid-box-item-article-img3:hover {
+  .header-button p:hover, .partner-button p:hover, .search-button p:hover, .header-button .grid-item .grid-item-article-img3:hover, .grid-item .header-button .grid-item-article-img3:hover, .partner-button .grid-item .grid-item-article-img3:hover, .grid-item .partner-button .grid-item-article-img3:hover, .search-button .grid-item .grid-item-article-img3:hover, .grid-item .search-button .grid-item-article-img3:hover {
     color: #ff4e50;
     transition: ease-out 0.5s; }
 
@@ -136,7 +136,7 @@ header {
   background: white;
   transition: ease-out 0.5s; }
 
-.sidebar-wrapper, .grid-box {
+.sidebar-wrapper, .grid {
   width: 100%;
   max-width: 300px;
   height: 780px;
@@ -322,13 +322,13 @@ header {
   outline: none;
   box-sizing: border-box;
   height: 40px; }
-  .partner-button p, .partner-button .grid-box-item .grid-box-item-article-img3, .grid-box-item .partner-button .grid-box-item-article-img3 {
+  .partner-button p, .partner-button .grid-item .grid-item-article-img3, .grid-item .partner-button .grid-item-article-img3 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
     font-size: 14px;
     color: #ff4e50;
     transition: ease-out 0.4s; }
-  .partner-button p:hover, .partner-button .grid-box-item .grid-box-item-article-img3:hover, .grid-box-item .partner-button .grid-box-item-article-img3:hover {
+  .partner-button p:hover, .partner-button .grid-item .grid-item-article-img3:hover, .grid-item .partner-button .grid-item-article-img3:hover {
     color: white;
     transition: ease-out 0.4s; }
 
@@ -336,11 +336,11 @@ header {
   background: #ff4e50;
   transition: ease-out 0.4s; }
 
-.grid-box {
+.grid {
   height: 1000px;
   margin-top: 0px; }
 
-.grid-box:after {
+.grid:after {
   content: '';
   display: block;
   clear: both; }
@@ -355,19 +355,19 @@ header {
   display: none;
   font-weight: bold; }
 
-.grid-box-item {
+.grid-item {
   width: 100%;
   height: 120px;
   margin-top: 10px;
   background: #ff4e50;
   border-radius: 5px; }
-  .grid-box-item p, .grid-box-item .grid-box-item-article-img3 {
+  .grid-item p, .grid-item .grid-item-article-img3 {
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
     color: white; }
-  .grid-box-item .grid-box-item-article-img3 {
+  .grid-item .grid-item-article-img3 {
     padding-top: 35px; }
 
 .search-wrapper {
@@ -505,7 +505,7 @@ footer {
     display: block; }
   .grid-wrapper-title-768 {
     display: none; }
-  .grid-box-item p, .grid-box-item .grid-box-item-article-img3 {
+  .grid-item p, .grid-item .grid-item-article-img3 {
     padding-top: 15%; }
   .search-wrapper {
     margin-top: 0px;
@@ -595,7 +595,7 @@ footer {
     margin-top: 30px;
     outline: none;
     box-sizing: border-box; }
-  .sidebar-wrapper, .grid-box {
+  .sidebar-wrapper, .grid {
     width: 100%;
     max-width: 768px;
     height: auto;
@@ -731,12 +731,12 @@ footer {
     outline: none;
     box-sizing: border-box;
     max-width: 193px; }
-    .partner-button p, .partner-button .grid-box-item .grid-box-item-article-img3, .grid-box-item .partner-button .grid-box-item-article-img3 {
+    .partner-button p, .partner-button .grid-item .grid-item-article-img3, .grid-item .partner-button .grid-item-article-img3 {
       font-family: "Montserrat", sans-serif;
       text-align: center;
       font-size: 14px;
       color: #ff4e50; }
-  .grid-box {
+  .grid {
     max-width: 768px;
     height: auto;
     margin-top: 10px;
@@ -747,23 +747,22 @@ footer {
     display: block;
     padding-top: 98px;
     padding-bottom: 14px; }
-  .grid-box-item {
+  .grid-item {
     width: 100%;
     max-width: 31%;
     height: 309px;
-    float: left;
     margin-top: 10px;
     background: #ff4e50;
     border-radius: 5px;
     margin-left: 1%; }
-    .grid-box-item p, .grid-box-item .grid-box-item-article-img3 {
+    .grid-item p, .grid-item .grid-item-article-img3 {
       padding-top: 140px;
       font-family: "Montserrat", sans-serif;
       font-size: 22px;
       font-weight: bold;
       text-align: center;
       color: white; }
-    .grid-box-item .grid-box-item-article-img3 {
+    .grid-item .grid-item-article-img3 {
       padding-top: 130px; }
   .grid-wide {
     width: 100%;
@@ -901,7 +900,7 @@ footer {
     margin-top: 33px;
     outline: none;
     box-sizing: border-box; }
-  .sidebar-wrapper, .grid-box {
+  .sidebar-wrapper, .grid {
     width: 100%;
     max-width: 940px;
     height: auto;
@@ -1008,12 +1007,12 @@ footer {
     display: block;
     outline: none;
     box-sizing: border-box; }
-    .partner-button p, .partner-button .grid-box-item .grid-box-item-article-img3, .grid-box-item .partner-button .grid-box-item-article-img3 {
+    .partner-button p, .partner-button .grid-item .grid-item-article-img3, .grid-item .partner-button .grid-item-article-img3 {
       font-family: "Montserrat", sans-serif;
       text-align: center;
       font-size: 14px;
       color: #ff4e50; }
-  .grid-box {
+  .grid {
     max-width: 940px;
     height: auto;
     margin-top: 10px;
@@ -1024,23 +1023,22 @@ footer {
     display: block;
     padding-top: 60px;
     padding-bottom: 10px; }
-  .grid-box-item {
+  .grid-item {
     width: 100%;
     max-width: 31%;
     height: 309px;
-    float: left;
     margin-top: 10px;
     background: #ff4e50;
     border-radius: 5px;
     margin-left: 1%; }
-    .grid-box-item p, .grid-box-item .grid-box-item-article-img3 {
+    .grid-item p, .grid-item .grid-item-article-img3 {
       padding-top: 140px;
       font-family: "Montserrat", sans-serif;
       font-size: 22px;
       font-weight: bold;
       text-align: center;
       color: white; }
-    .grid-box-item .grid-box-item-article-img3 {
+    .grid-item .grid-item-article-img3 {
       padding-top: 130px; }
   .grid-wide {
     width: 100%;
@@ -1168,7 +1166,7 @@ footer {
     margin-top: 38px;
     outline: none;
     box-sizing: border-box; }
-  .sidebar-wrapper, .grid-box {
+  .sidebar-wrapper, .grid {
     width: 100%;
     max-width: 940px;
     height: auto;
@@ -1279,12 +1277,12 @@ footer {
     outline: none;
     box-sizing: border-box;
     width: 190px; }
-    .partner-button p, .partner-button .grid-box-item .grid-box-item-article-img3, .grid-box-item .partner-button .grid-box-item-article-img3 {
+    .partner-button p, .partner-button .grid-item .grid-item-article-img3, .grid-item .partner-button .grid-item-article-img3 {
       font-family: "Montserrat", sans-serif;
       text-align: center;
       font-size: 14px;
       color: #ff4e50; }
-  .grid-box {
+  .grid {
     max-width: 940px;
     height: auto;
     margin-top: 0px;
@@ -1296,24 +1294,23 @@ footer {
     padding-top: 97px;
     padding-bottom: 10px;
     font-weight: bold; }
-  .grid-box-item {
+  .grid-item {
     width: 100%;
     max-width: 31%;
     height: 310px;
-    float: left;
     margin-top: 25px;
     background: #ff4e50;
     border-radius: 5px;
     margin-left: 0px;
     margin-right: 1%; }
-    .grid-box-item p, .grid-box-item .grid-box-item-article-img3 {
+    .grid-item p, .grid-item .grid-item-article-img3 {
       padding-top: 140px;
       font-family: "Montserrat", sans-serif;
       font-size: 22px;
       font-weight: bold;
       text-align: center;
       color: white; }
-    .grid-box-item .grid-box-item-article-img3 {
+    .grid-item .grid-item-article-img3 {
       padding-top: 130px; }
   .grid-wide {
     width: 100%;
@@ -1390,7 +1387,7 @@ footer {
 
 /*media=480-760px*/
 @media screen and (min-width: 480px) and (max-width: 760px) {
-  .sidebar-wrapper, .grid-box {
+  .sidebar-wrapper, .grid {
     width: 100%;
     max-width: 768px;
     height: auto;

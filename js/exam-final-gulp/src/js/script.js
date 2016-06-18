@@ -30,7 +30,7 @@ $.ajax({
     dataType: 'json',
     success: function(data){
     console.log('data', data);
-            var item = $('.grid-box-item');
+            var item = $('.grid-item');
             item.each(function (index) {
               $(this).css('backgroundImage', 'url('+data.hits[index].webformatURL+')', 'text');
               $(this).find('p').text(data.hits[index].tags.split(',')[0]);
@@ -51,7 +51,7 @@ $(function(){
         success: function(data){
             // console.log(data);
 
-            var item = $('.grid-box-item');
+            var item = $('.grid-item');
             item.each(function (index) {
               $(this).css('backgroundImage', 'url('+data.hits[index].webformatURL+')', 'text');
               $(this).find('p').text(data.hits[index].tags.split(',')[0]);

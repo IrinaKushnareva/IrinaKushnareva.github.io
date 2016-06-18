@@ -157,7 +157,7 @@ header {
   background: white;
   transition: ease-out 0.5s; }
 
-.sidebar-wrapper, .grid-box {
+.sidebar-wrapper, .grid {
   width: 100%;
   max-width: 940px;
   height: auto;
@@ -333,11 +333,11 @@ header {
   background: #ff4e50;
   transition: ease-out 0.4s; }
 
-.grid-box {
+.grid {
   height: auto;
   margin-top: 10px; }
 
-.grid-box:after {
+.grid:after {
   content: '';
   display: block;
   clear: both; }
@@ -360,7 +360,7 @@ header {
   padding-bottom: 30px;
   display: block; }
 
-.grid-box-item {
+.grid-item {
   width: 100%;
   max-width: 31%;
   height: 309px;
@@ -369,14 +369,14 @@ header {
   background: #ff4e50;
   border-radius: 5px;
   margin-left: 1%; }
-  .grid-box-item p {
+  .grid-item p {
     padding-top: 140px;
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
     color: white; }
-  .grid-box-item .grid-box-item-article-img3 {
+  .grid-item .grid-item-article-img3 {
     padding-top: 130px; }
 
 .grid-wide {
@@ -529,7 +529,7 @@ footer {
     display: block; }
   .grid-wrapper-title-768 {
     display: none; }
-  .grid-box-item p {
+  .grid-item p {
     padding-top: 15%; }
   .search-wrapper {
     margin-top: 0px;
@@ -619,7 +619,7 @@ footer {
     margin-top: 30px;
     outline: none;
     box-sizing: border-box; }
-  .sidebar-wrapper, .grid-box {
+  .sidebar-wrapper, .grid {
     width: 100%;
     max-width: 768px;
     height: auto;
@@ -760,7 +760,7 @@ footer {
       text-align: center;
       font-size: 14px;
       color: #ff4e50; }
-  .grid-box {
+  .grid {
     max-width: 768px;
     height: auto;
     margin-top: 10px;
@@ -771,23 +771,22 @@ footer {
     display: block;
     padding-top: 98px;
     padding-bottom: 14px; }
-  .grid-box-item {
+  .grid-item {
     width: 100%;
     max-width: 31%;
     height: 309px;
-    float: left;
     margin-top: 10px;
     background: #ff4e50;
     border-radius: 5px;
     margin-left: 1%; }
-    .grid-box-item p {
+    .grid-item p {
       padding-top: 140px;
       font-family: "Montserrat", sans-serif;
       font-size: 22px;
       font-weight: bold;
       text-align: center;
       color: white; }
-    .grid-box-item .grid-box-item-article-img3 {
+    .grid-item .grid-item-article-img3 {
       padding-top: 130px; }
   .grid-wide {
     width: 100%;
@@ -925,7 +924,7 @@ footer {
     margin-top: 33px;
     outline: none;
     box-sizing: border-box; }
-  .sidebar-wrapper, .grid-box {
+  .sidebar-wrapper, .grid {
     width: 100%;
     max-width: 940px;
     height: auto;
@@ -1037,7 +1036,7 @@ footer {
       text-align: center;
       font-size: 14px;
       color: #ff4e50; }
-  .grid-box {
+  .grid {
     max-width: 940px;
     height: auto;
     margin-top: 10px;
@@ -1048,23 +1047,22 @@ footer {
     display: block;
     padding-top: 60px;
     padding-bottom: 10px; }
-  .grid-box-item {
+  .grid-item {
     width: 100%;
     max-width: 31%;
     height: 309px;
-    float: left;
     margin-top: 10px;
     background: #ff4e50;
     border-radius: 5px;
     margin-left: 1%; }
-    .grid-box-item p {
+    .grid-item p {
       padding-top: 140px;
       font-family: "Montserrat", sans-serif;
       font-size: 22px;
       font-weight: bold;
       text-align: center;
       color: white; }
-    .grid-box-item .grid-box-item-article-img3 {
+    .grid-item .grid-item-article-img3 {
       padding-top: 130px; }
   .grid-wide {
     width: 100%;
@@ -1192,7 +1190,7 @@ footer {
     margin-top: 38px;
     outline: none;
     box-sizing: border-box; }
-  .sidebar-wrapper, .grid-box {
+  .sidebar-wrapper, .grid {
     width: 100%;
     max-width: 940px;
     height: auto;
@@ -1308,7 +1306,7 @@ footer {
       text-align: center;
       font-size: 14px;
       color: #ff4e50; }
-  .grid-box {
+  .grid {
     max-width: 940px;
     height: auto;
     margin-top: 0px;
@@ -1320,24 +1318,23 @@ footer {
     padding-top: 97px;
     padding-bottom: 10px;
     font-weight: bold; }
-  .grid-box-item {
+  .grid-item {
     width: 100%;
     max-width: 31%;
     height: 310px;
-    float: left;
     margin-top: 25px;
     background: #ff4e50;
     border-radius: 5px;
     margin-left: 0px;
     margin-right: 1%; }
-    .grid-box-item p {
+    .grid-item p {
       padding-top: 140px;
       font-family: "Montserrat", sans-serif;
       font-size: 22px;
       font-weight: bold;
       text-align: center;
       color: white; }
-    .grid-box-item .grid-box-item-article-img3 {
+    .grid-item .grid-item-article-img3 {
       padding-top: 130px; }
   .grid-wide {
     width: 100%;
@@ -1414,7 +1411,7 @@ footer {
 
 /*media=480-760px*/
 @media screen and (min-width: 480px) and (max-width: 760px) {
-  .sidebar-wrapper, .grid-box {
+  .sidebar-wrapper, .grid {
     width: 100%;
     max-width: 768px;
     height: auto;
