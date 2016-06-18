@@ -4,6 +4,7 @@ var gulp = require('gulp'),
     connect = require('gulp-connect'),
     spritesmith = require('gulp.spritesmith'),
     imagemin = require('gulp-imagemin');
+    uglify = require('gulp-uglify');
 
 gulp.task('connect', function() {
   connect.server({
@@ -57,9 +58,15 @@ gulp.task('imagemin', () =>
 		.pipe(gulp.dest('build/img/@2x'))
 );
 
+gulp.task('compress', function() {
+  return gulp.src('src/js/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('build/js'));
+});
+
 gulp.task('watch', function() {
   gulp.watch('index.html', ['html']);
   gulp.watch('src/scss/*.scss', ['sass']);
 });
 
-gulp.task('default', ['connect', 'html', 'sprite', 'sprite@2x', 'imagemin', 'sass', 'watch']);
+gulp.task('default', ['connect', 'html', 'sprite', 'sprite@2x', 'imagemin', 'sass', 'compress', 'watch']);
