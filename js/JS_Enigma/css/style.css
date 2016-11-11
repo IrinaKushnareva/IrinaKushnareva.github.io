@@ -1,0 +1,127 @@
+body {
+    background-image: radial-gradient(#F3A7F3, #8698cc);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: 	#00008b;
+}
+
+h2 {
+    color: #d80865;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-style: italic;
+    color: #00008b;
+}
+
+h4 {
+    margin: 10px;
+    font-weight: 600;
+    color: #8b0a50;
+}
+
+span {
+    color: #00008b;
+    font-size: 27px;
+}
+
+button {
+    margin: 0 auto;
+    margin-top: 5%;
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    background-color: rgba(238,130,238, 0.9);
+    color: 	#00008b;
+    border: 1px solid #00008b;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 14px -1px rgba(6,22,199,0.7);
+    -moz-box-shadow: 5px 5px 14px -1px rgba(6,22,199,0.7);
+    box-shadow: 5px 5px 14px -1px rgba(6,22,199,0.7);
+    outline: 0;
+    cursor: pointer;
+}
+
+#go {
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    background-color: rgba(238,130,238, 0.9);
+    color: blue;
+    border: 1px solid #00008b;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 14px -1px rgba(6,22,199,0.7);
+    -moz-box-shadow: 5px 5px 14px -1px rgba(6,22,199,0.7);
+    box-shadow: 5px 5px 14px -1px rgba(6,22,199,0.7);
+    cursor: pointer;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+#modal_form {
+    width: 600px;
+    border-radius: 5px;
+    border: 3px #000 solid;
+    background: #f0f8ff;
+    position: absolute;
+    left: 42%;
+    margin-top: -200px;
+    margin-left: -200px;
+    display: none;
+    opacity: 0;
+    z-index: 5;
+    padding: 20px 10px;
+}
+
+#modal_form #modal_close {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+#overlay {
+    z-index: 3;
+    position: fixed;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: none;
+}
+
+#modal_button {
+    margin-top: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#lettersInput {
+    margin: 0 auto;
+    margin-left: 25%;
+}
