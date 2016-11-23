@@ -4,36 +4,63 @@
 }
 /* First Section*/
 .hhh {
-    height: 400px;
-    background: url("../img/back2-min.jpg") no-repeat;
+    /*height: 100vh; /* высота секции равна высоте области просмотра */
+    height: 700px;
+    background: url("../img/back3-min.jpg") no-repeat;
     background-size: cover;
-    padding: 50px;
+}
+
+.hhh .welcome {
+  position: relative;
+  top: 0;
+  z-index: 2;
+  max-width: 100%;
+  cursor: pointer;
+  transition: 2s linear;
+}
+.welcome:hover {
+  top: 50px;
 }
 
 .hhh h2 {
     text-align: center;
-    padding-top: 61px;
+    padding-top: 200px;
     margin-bottom: 20px;
+    color: #f4f5f6;
+    font-size: 36px;
 }
 
-.hhh p {
+.hhh .spec {
     text-align: center;
     color: #8D8A8A;
-    font-size: 24px;
-    margin-bottom: 25px;
+    font-size: 28px;
+    margin-bottom: 80px;
 }
 
+.buttons {
+  margin-left: 3%;
+  margin-top: 160px;
+}
 .btn-default {
     margin-right: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
     background: none;
     border-color: #8D8A8A;
+    border-width: 2px;
     color: #8D8A8A;
 }
 
 .btn-default:hover {
     background: #0000cd;
     border-color: #0000cd;
+    color: #fff;
 }
+.btn-default:active, .btn-default:focus {
+    background: none;
+    color: #8D8A8A;
+}
+
 
 /* Nav Section */
 .clearfix: after {
@@ -45,7 +72,9 @@
 }
 
 .navbar {
+    min-height: 0px;
     margin-bottom: 0px;
+    border: 0px;
     border-radius: 0px;
 }
 
@@ -66,17 +95,8 @@
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-  background-color: #0000cd;
-}
-
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-  background-color: #0000cd;
-}
-
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
   border-color: #0000cd;
 }
-
 
 #top_nav {
     position: fixed;
@@ -85,6 +105,12 @@
 }
 .navbar-text {
     margin-left: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+.navbar-text p {
+    color: #fff;
+    font-size: 20px;
 }
 .section-title.center hr {
     height: 4px;
@@ -119,13 +145,17 @@
     letter-spacing: 0.7px;
     line-height: 36.8px;
 }
+#about h2 {
+  color: #f4f5f6;
+}
 
 .text-center {
     text-align: center;
 }
 
 #about img {
-    border-radius: 200px;
+    width: 280px;
+
 }
 
 /* Portfolio Section */
@@ -147,6 +177,10 @@
     letter-spacing: 0.4px;
 }
 
+#portfolio h2 {
+color: #f4f5f6;
+}
+
 .portfolio-item {
     margin-bottom: 30px;
     -webkit-transition: all 0.5s ease-out;
@@ -158,11 +192,11 @@
 
 .portfolio-item:hover {
     margin-bottom: 30px;
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.12);
+    -moz-transform: scale(1.12);
+    -ms-transform: scale(1.12);
+    -o-transform: scale(1.12);
+    transform: scale(1.12);
 }
 
 .portfolio-item .hover-bg {
@@ -275,16 +309,25 @@ span {
     background: url("../img/skills-bg-min.gif");
     background-size: cover;
     background-attachment: fixed;
+    opacity: 0.85;
 
+}
+
+#skills:hover {
+  opacity: 1;
+  transition: 0.5s;
 }
 
 #skills p {
     color: #8D8A8A;
 }
 
+#skills h2 {
+  color: #f4f5f6;
+  }
+
 #skills .skill {
     margin-bottom: 40px;
-
 }
 
 #skills .skill h4 {
