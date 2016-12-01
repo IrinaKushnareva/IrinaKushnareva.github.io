@@ -9,8 +9,9 @@ $(function(){
                  duration: 700,
                  easing: "linear"
       });
+      $('.navbar-collapse').removeClass('in');
     });
-
+      $('.navbar-collapse').removeClass('in');
     $("body").on("click", "a.btn", function(event){
       event.preventDefault();
       var name = $(this).attr('href').substring(1),
